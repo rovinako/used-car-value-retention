@@ -1,0 +1,32 @@
+{
+  "raw_rows": {
+    "CarGurus": 1824,
+    "iSeeCars": 1080
+  },
+  "unique_valid_before_integration": {
+    "CarGurus": 887,
+    "iSeeCars": 736
+  },
+  "final_rows": 1325,
+  "final_source_counts": {
+    "CarGurus": 884,
+    "iSeeCars": 441
+  },
+  "makes": [
+    "Ford",
+    "Honda",
+    "Toyota"
+  ],
+  "models_per_make": {
+    "Ford": 3,
+    "Honda": 3,
+    "Toyota": 3
+  },
+  "duplicate_vins": 0,
+  "missing_msrp": 0,
+  "text_available": 881,
+  "text_feature_counts": {
+    "mentions_leather": 154,
+    "mentions_navigation": 253
+  }
+}

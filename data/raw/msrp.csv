@@ -1,0 +1,784 @@
+make,model,year,trim_id,trim,original_msrp,drivetrain,msrp_source_url,collected_at
+Toyota,Camry,2025,t110632,XLE AWD,35225,AWD,https://www.cargurus.com/research/2025-Toyota-Camry-c33246,2026-10-23T21:41:40.559165+00:00
+Toyota,Camry,2025,t110631,XSE FWD,34900,FWD,https://www.cargurus.com/research/2025-Toyota-Camry-c33246,2026-10-23T21:41:40.559165+00:00
+Toyota,Camry,2025,t110634,SE AWD,32525,AWD,https://www.cargurus.com/research/2025-Toyota-Camry-c33246,2026-10-23T21:41:40.559165+00:00
+Toyota,Camry,2025,t110633,XLE FWD,33700,FWD,https://www.cargurus.com/research/2025-Toyota-Camry-c33246,2026-10-23T21:41:40.559165+00:00
+Toyota,Camry,2025,t110636,LE AWD,30225,AWD,https://www.cargurus.com/research/2025-Toyota-Camry-c33246,2026-10-23T21:41:40.559165+00:00
+Toyota,Camry,2025,t110635,SE FWD,31000,FWD,https://www.cargurus.com/research/2025-Toyota-Camry-c33246,2026-10-23T21:41:40.559165+00:00
+Toyota,Camry,2025,t110637,LE FWD,28700,FWD,https://www.cargurus.com/research/2025-Toyota-Camry-c33246,2026-10-23T21:41:40.559165+00:00
+Toyota,Camry,2025,t110630,XSE AWD,36425,AWD,https://www.cargurus.com/research/2025-Toyota-Camry-c33246,2026-10-23T21:41:40.559165+00:00
+Toyota,Camry,2024,t108168,SE AWD,29360,AWD,https://www.cargurus.com/research/2024-Toyota-Camry-c33047,2026-10-23T21:41:42.047990+00:00
+Toyota,Camry,2024,t108169,SE Nightshade AWD,30360,AWD,https://www.cargurus.com/research/2024-Toyota-Camry-c33047,2026-10-23T21:41:42.047990+00:00
+Toyota,Camry,2024,t108166,XLE V6 FWD,36295,FWD,https://www.cargurus.com/research/2024-Toyota-Camry-c33047,2026-10-23T21:41:42.047990+00:00
+Toyota,Camry,2024,t108167,LE AWD,27820,AWD,https://www.cargurus.com/research/2024-Toyota-Camry-c33047,2026-10-23T21:41:42.047990+00:00
+Toyota,Camry,2024,t108164,XSE AWD,33120,AWD,https://www.cargurus.com/research/2024-Toyota-Camry-c33047,2026-10-23T21:41:42.047990+00:00
+Toyota,Camry,2024,t108175,XLE FWD,31170,FWD,https://www.cargurus.com/research/2024-Toyota-Camry-c33047,2026-10-23T21:41:42.047990+00:00
+Toyota,Camry,2024,t108165,XSE FWD,31720,FWD,https://www.cargurus.com/research/2024-Toyota-Camry-c33047,2026-10-23T21:41:42.047990+00:00
+Toyota,Camry,2024,t108173,SE FWD,27960,FWD,https://www.cargurus.com/research/2024-Toyota-Camry-c33047,2026-10-23T21:41:42.047990+00:00
+Toyota,Camry,2024,t108163,XSE V6 FWD,36845,FWD,https://www.cargurus.com/research/2024-Toyota-Camry-c33047,2026-10-23T21:41:42.047990+00:00
+Toyota,Camry,2024,t108174,LE FWD,26420,FWD,https://www.cargurus.com/research/2024-Toyota-Camry-c33047,2026-10-23T21:41:42.047990+00:00
+Toyota,Camry,2024,t108171,TRD FWD,33485,FWD,https://www.cargurus.com/research/2024-Toyota-Camry-c33047,2026-10-23T21:41:42.047990+00:00
+Toyota,Camry,2024,t108172,XLE AWD,32570,AWD,https://www.cargurus.com/research/2024-Toyota-Camry-c33047,2026-10-23T21:41:42.047990+00:00
+Toyota,Camry,2024,t108170,SE Nightshade FWD,28960,FWD,https://www.cargurus.com/research/2024-Toyota-Camry-c33047,2026-10-23T21:41:42.047990+00:00
+Toyota,Camry,2023,t102979,XSE FWD,31620,FWD,https://www.cargurus.com/research/2023-Toyota-Camry-c32463,2026-10-23T21:42:51.110187+00:00
+Toyota,Camry,2023,t102986,SE Nightshade FWD,28860,FWD,https://www.cargurus.com/research/2023-Toyota-Camry-c32463,2026-10-23T21:42:51.110187+00:00
+Toyota,Camry,2023,t102987,LE AWD,27720,AWD,https://www.cargurus.com/research/2023-Toyota-Camry-c32463,2026-10-23T21:42:51.110187+00:00
+Toyota,Camry,2023,t102977,XLE V6 FWD,36195,FWD,https://www.cargurus.com/research/2023-Toyota-Camry-c32463,2026-10-23T21:42:51.110187+00:00
+Toyota,Camry,2023,t102988,LE FWD,26320,FWD,https://www.cargurus.com/research/2023-Toyota-Camry-c32463,2026-10-23T21:42:51.110187+00:00
+Toyota,Camry,2023,t102978,XSE AWD,33020,AWD,https://www.cargurus.com/research/2023-Toyota-Camry-c32463,2026-10-23T21:42:51.110187+00:00
+Toyota,Camry,2023,t102989,TRD FWD,33385,FWD,https://www.cargurus.com/research/2023-Toyota-Camry-c32463,2026-10-23T21:42:51.110187+00:00
+Toyota,Camry,2023,t102982,XLE AWD,32470,AWD,https://www.cargurus.com/research/2023-Toyota-Camry-c32463,2026-10-23T21:42:51.110187+00:00
+Toyota,Camry,2023,t102983,XLE FWD,31070,FWD,https://www.cargurus.com/research/2023-Toyota-Camry-c32463,2026-10-23T21:42:51.110187+00:00
+Toyota,Camry,2023,t102984,XSE V6 FWD,36745,FWD,https://www.cargurus.com/research/2023-Toyota-Camry-c32463,2026-10-23T21:42:51.110187+00:00
+Toyota,Camry,2023,t102985,SE Nightshade AWD,30260,AWD,https://www.cargurus.com/research/2023-Toyota-Camry-c32463,2026-10-23T21:42:51.110187+00:00
+Toyota,Camry,2023,t102980,SE AWD,29260,AWD,https://www.cargurus.com/research/2023-Toyota-Camry-c32463,2026-10-23T21:42:51.110187+00:00
+Toyota,Camry,2023,t102981,SE FWD,27860,FWD,https://www.cargurus.com/research/2023-Toyota-Camry-c32463,2026-10-23T21:42:51.110187+00:00
+Toyota,Camry,2022,t97749,LE FWD,25845,FWD,https://www.cargurus.com/research/2022-Toyota-Camry-c31813,2026-10-23T21:42:52.457497+00:00
+Toyota,Camry,2022,t97748,LE AWD,27245,AWD,https://www.cargurus.com/research/2022-Toyota-Camry-c31813,2026-10-23T21:42:52.457497+00:00
+Toyota,Camry,2022,t97747,SE FWD,27385,FWD,https://www.cargurus.com/research/2022-Toyota-Camry-c31813,2026-10-23T21:42:52.457497+00:00
+Toyota,Camry,2022,t97746,SE AWD,28785,AWD,https://www.cargurus.com/research/2022-Toyota-Camry-c31813,2026-10-23T21:42:52.457497+00:00
+Toyota,Camry,2022,t97745,SE Nightshade AWD,29485,AWD,https://www.cargurus.com/research/2022-Toyota-Camry-c31813,2026-10-23T21:42:52.457497+00:00
+Toyota,Camry,2022,t97744,SE Nightshade FWD,28085,FWD,https://www.cargurus.com/research/2022-Toyota-Camry-c31813,2026-10-23T21:42:52.457497+00:00
+Toyota,Camry,2022,t97755,XSE V6 FWD,36270,FWD,https://www.cargurus.com/research/2022-Toyota-Camry-c31813,2026-10-23T21:42:52.457497+00:00
+Toyota,Camry,2022,t97743,TRD FWD,32910,FWD,https://www.cargurus.com/research/2022-Toyota-Camry-c31813,2026-10-23T21:42:52.457497+00:00
+Toyota,Camry,2022,t97754,XSE FWD,31145,FWD,https://www.cargurus.com/research/2022-Toyota-Camry-c31813,2026-10-23T21:42:52.457497+00:00
+Toyota,Camry,2022,t97753,XSE AWD,32545,AWD,https://www.cargurus.com/research/2022-Toyota-Camry-c31813,2026-10-23T21:42:52.457497+00:00
+Toyota,Camry,2022,t97752,XLE V6 FWD,35720,FWD,https://www.cargurus.com/research/2022-Toyota-Camry-c31813,2026-10-23T21:42:52.457497+00:00
+Toyota,Camry,2022,t97751,XLE FWD,30595,FWD,https://www.cargurus.com/research/2022-Toyota-Camry-c31813,2026-10-23T21:42:52.457497+00:00
+Toyota,Camry,2022,t97750,XLE AWD,31995,AWD,https://www.cargurus.com/research/2022-Toyota-Camry-c31813,2026-10-23T21:42:52.457497+00:00
+Toyota,Camry,2021,t95569,SE FWD,26560,FWD,https://www.cargurus.com/research/2021-Toyota-Camry-c30819,2026-10-23T21:42:54.611629+00:00
+Toyota,Camry,2021,t95567,LE FWD,25045,FWD,https://www.cargurus.com/research/2021-Toyota-Camry-c30819,2026-10-23T21:42:54.611629+00:00
+Toyota,Camry,2021,t95578,XSE V6 FWD,35620,FWD,https://www.cargurus.com/research/2021-Toyota-Camry-c30819,2026-10-23T21:42:54.611629+00:00
+Toyota,Camry,2021,t95568,SE AWD,27960,AWD,https://www.cargurus.com/research/2021-Toyota-Camry-c30819,2026-10-23T21:42:54.611629+00:00
+Toyota,Camry,2021,t95576,XSE AWD,31895,AWD,https://www.cargurus.com/research/2021-Toyota-Camry-c30819,2026-10-23T21:42:54.611629+00:00
+Toyota,Camry,2021,t95566,LE AWD,26445,AWD,https://www.cargurus.com/research/2021-Toyota-Camry-c30819,2026-10-23T21:42:54.611629+00:00
+Toyota,Camry,2021,t95577,XSE FWD,30495,FWD,https://www.cargurus.com/research/2021-Toyota-Camry-c30819,2026-10-23T21:42:54.611629+00:00
+Toyota,Camry,2021,t95574,XLE FWD,29945,FWD,https://www.cargurus.com/research/2021-Toyota-Camry-c30819,2026-10-23T21:42:54.611629+00:00
+Toyota,Camry,2021,t95575,XLE V6 FWD,35070,FWD,https://www.cargurus.com/research/2021-Toyota-Camry-c30819,2026-10-23T21:42:54.611629+00:00
+Toyota,Camry,2021,t95572,TRD FWD,32260,FWD,https://www.cargurus.com/research/2021-Toyota-Camry-c30819,2026-10-23T21:42:54.611629+00:00
+Toyota,Camry,2021,t95573,XLE AWD,31345,AWD,https://www.cargurus.com/research/2021-Toyota-Camry-c30819,2026-10-23T21:42:54.611629+00:00
+Toyota,Camry,2021,t95570,SE Nightshade AWD,28660,AWD,https://www.cargurus.com/research/2021-Toyota-Camry-c30819,2026-10-23T21:42:54.611629+00:00
+Toyota,Camry,2021,t95571,SE Nightshade FWD,27260,FWD,https://www.cargurus.com/research/2021-Toyota-Camry-c30819,2026-10-23T21:42:54.611629+00:00
+Toyota,Camry,2020,t88885,TRD FWD,31170,FWD,https://www.cargurus.com/research/2020-Toyota-Camry-c29167,2026-10-23T21:42:56.429092+00:00
+Toyota,Camry,2020,t88884,SE Nightshade FWD,26870,FWD,https://www.cargurus.com/research/2020-Toyota-Camry-c29167,2026-10-23T21:42:56.429092+00:00
+Toyota,Camry,2020,t88878,LE FWD,24970,FWD,https://www.cargurus.com/research/2020-Toyota-Camry-c29167,2026-10-23T21:42:56.429092+00:00
+Toyota,Camry,2020,t88877,L FWD,24425,FWD,https://www.cargurus.com/research/2020-Toyota-Camry-c29167,2026-10-23T21:42:56.429092+00:00
+Toyota,Camry,2020,t88879,SE FWD,26170,FWD,https://www.cargurus.com/research/2020-Toyota-Camry-c29167,2026-10-23T21:42:56.429092+00:00
+Toyota,Camry,2020,t92287,XSE AWD,31405,AWD,https://www.cargurus.com/research/2020-Toyota-Camry-c29167,2026-10-23T21:42:56.429092+00:00
+Toyota,Camry,2020,t92283,LE AWD,26370,AWD,https://www.cargurus.com/research/2020-Toyota-Camry-c29167,2026-10-23T21:42:56.429092+00:00
+Toyota,Camry,2020,t92284,SE AWD,27570,AWD,https://www.cargurus.com/research/2020-Toyota-Camry-c29167,2026-10-23T21:42:56.429092+00:00
+Toyota,Camry,2020,t92285,SE Nightshade AWD,28270,AWD,https://www.cargurus.com/research/2020-Toyota-Camry-c29167,2026-10-23T21:42:56.429092+00:00
+Toyota,Camry,2020,t92286,XLE AWD,30855,AWD,https://www.cargurus.com/research/2020-Toyota-Camry-c29167,2026-10-23T21:42:56.429092+00:00
+Toyota,Camry,2020,t88881,XLE V6 FWD,34580,FWD,https://www.cargurus.com/research/2020-Toyota-Camry-c29167,2026-10-23T21:42:56.429092+00:00
+Toyota,Camry,2020,t88880,XLE FWD,29455,FWD,https://www.cargurus.com/research/2020-Toyota-Camry-c29167,2026-10-23T21:42:56.429092+00:00
+Toyota,Camry,2020,t88883,XSE V6 FWD,35130,FWD,https://www.cargurus.com/research/2020-Toyota-Camry-c29167,2026-10-23T21:42:56.429092+00:00
+Toyota,Camry,2020,t88882,XSE FWD,30005,FWD,https://www.cargurus.com/research/2020-Toyota-Camry-c29167,2026-10-23T21:42:56.429092+00:00
+Toyota,Camry,2019,t80279,XSE V6 FWD,34850,FWD,https://www.cargurus.com/research/2019-Toyota-Camry-c27940,2026-10-23T21:42:58.167920+00:00
+Toyota,Camry,2019,t80276,XLE FWD,29175,FWD,https://www.cargurus.com/research/2019-Toyota-Camry-c27940,2026-10-23T21:42:58.167920+00:00
+Toyota,Camry,2019,t80275,SE FWD,25800,FWD,https://www.cargurus.com/research/2019-Toyota-Camry-c27940,2026-10-23T21:42:58.167920+00:00
+Toyota,Camry,2019,t80278,XSE FWD,29725,FWD,https://www.cargurus.com/research/2019-Toyota-Camry-c27940,2026-10-23T21:42:58.167920+00:00
+Toyota,Camry,2019,t80277,XLE V6 FWD,34300,FWD,https://www.cargurus.com/research/2019-Toyota-Camry-c27940,2026-10-23T21:42:58.167920+00:00
+Toyota,Camry,2019,t80274,LE FWD,24600,FWD,https://www.cargurus.com/research/2019-Toyota-Camry-c27940,2026-10-23T21:42:58.167920+00:00
+Toyota,Camry,2019,t80273,L FWD,24095,FWD,https://www.cargurus.com/research/2019-Toyota-Camry-c27940,2026-10-23T21:42:58.167920+00:00
+Toyota,Camry,2018,t75662,L,23645,FWD,https://www.cargurus.com/research/2018-Toyota-Camry-c26652,2026-10-23T21:42:59.690736+00:00
+Toyota,Camry,2018,t73753,SE,25350,FWD,https://www.cargurus.com/research/2018-Toyota-Camry-c26652,2026-10-23T21:42:59.690736+00:00
+Toyota,Camry,2018,t73752,LE,24150,FWD,https://www.cargurus.com/research/2018-Toyota-Camry-c26652,2026-10-23T21:42:59.690736+00:00
+Toyota,Camry,2018,t73755,XLE V6,34550,FWD,https://www.cargurus.com/research/2018-Toyota-Camry-c26652,2026-10-23T21:42:59.690736+00:00
+Toyota,Camry,2018,t73754,XLE,28600,FWD,https://www.cargurus.com/research/2018-Toyota-Camry-c26652,2026-10-23T21:42:59.690736+00:00
+Toyota,Camry,2018,t73757,XSE V6,35100,FWD,https://www.cargurus.com/research/2018-Toyota-Camry-c26652,2026-10-23T21:42:59.690736+00:00
+Toyota,Camry,2018,t73756,XSE,29150,FWD,https://www.cargurus.com/research/2018-Toyota-Camry-c26652,2026-10-23T21:42:59.690736+00:00
+Toyota,Camry,2017,t68151,SE,23840,FWD,https://www.cargurus.com/research/2017-Toyota-Camry-c25976,2026-10-23T21:43:01.895530+00:00
+Toyota,Camry,2017,t68150,LE,23070,FWD,https://www.cargurus.com/research/2017-Toyota-Camry-c25976,2026-10-23T21:43:01.895530+00:00
+Toyota,Camry,2017,t68153,XLE V6,31370,FWD,https://www.cargurus.com/research/2017-Toyota-Camry-c25976,2026-10-23T21:43:01.895530+00:00
+Toyota,Camry,2017,t68152,XLE,26310,FWD,https://www.cargurus.com/research/2017-Toyota-Camry-c25976,2026-10-23T21:43:01.895530+00:00
+Toyota,Camry,2017,t68155,XSE V6,31370,FWD,https://www.cargurus.com/research/2017-Toyota-Camry-c25976,2026-10-23T21:43:01.895530+00:00
+Toyota,Camry,2017,t68154,XSE,26310,FWD,https://www.cargurus.com/research/2017-Toyota-Camry-c25976,2026-10-23T21:43:01.895530+00:00
+Toyota,Camry,2016,t59791,XSE V6,31370,FWD,https://www.cargurus.com/research/2016-Toyota-Camry-c25220,2026-10-23T21:43:04.130873+00:00
+Toyota,Camry,2016,t59790,XLE V6,31370,FWD,https://www.cargurus.com/research/2016-Toyota-Camry-c25220,2026-10-23T21:43:04.130873+00:00
+Toyota,Camry,2016,t59789,LE,23070,FWD,https://www.cargurus.com/research/2016-Toyota-Camry-c25220,2026-10-23T21:43:04.130873+00:00
+Toyota,Camry,2016,t59788,XLE,26310,FWD,https://www.cargurus.com/research/2016-Toyota-Camry-c25220,2026-10-23T21:43:04.130873+00:00
+Toyota,Camry,2016,t59787,SE,23840,FWD,https://www.cargurus.com/research/2016-Toyota-Camry-c25220,2026-10-23T21:43:04.130873+00:00
+Toyota,Camry,2016,t59796,Special Edition,25715,FWD,https://www.cargurus.com/research/2016-Toyota-Camry-c25220,2026-10-23T21:43:04.130873+00:00
+Toyota,Camry,2016,t59792,XSE,26310,FWD,https://www.cargurus.com/research/2016-Toyota-Camry-c25220,2026-10-23T21:43:04.130873+00:00
+Toyota,Camry,2015,t56814,SE,23840,FWD,https://www.cargurus.com/research/2015-Toyota-Camry-c24654,2026-10-23T21:43:06.194196+00:00
+Toyota,Camry,2015,t56815,XLE V6,31370,FWD,https://www.cargurus.com/research/2015-Toyota-Camry-c24654,2026-10-23T21:43:06.194196+00:00
+Toyota,Camry,2015,t56818,XLE,26150,FWD,https://www.cargurus.com/research/2015-Toyota-Camry-c24654,2026-10-23T21:43:06.194196+00:00
+Toyota,Camry,2015,t56819,LE,22970,FWD,https://www.cargurus.com/research/2015-Toyota-Camry-c24654,2026-10-23T21:43:06.194196+00:00
+Toyota,Camry,2015,t56816,XSE V6,31370,FWD,https://www.cargurus.com/research/2015-Toyota-Camry-c24654,2026-10-23T21:43:06.194196+00:00
+Toyota,Camry,2015,t56817,XSE,26150,FWD,https://www.cargurus.com/research/2015-Toyota-Camry-c24654,2026-10-23T21:43:06.194196+00:00
+Toyota,Corolla,2025,t113229,SE FWD,24765,FWD,https://www.cargurus.com/research/2025-Toyota-Corolla-c33705,2026-10-23T21:41:58.925839+00:00
+Toyota,Corolla,2025,t113232,FX FWD,26650,FWD,https://www.cargurus.com/research/2025-Toyota-Corolla-c33705,2026-10-23T21:41:58.925839+00:00
+Toyota,Corolla,2025,t113230,LE FWD,22325,FWD,https://www.cargurus.com/research/2025-Toyota-Corolla-c33705,2026-10-23T21:41:58.925839+00:00
+Toyota,Corolla,2025,t113231,XSE FWD,28040,FWD,https://www.cargurus.com/research/2025-Toyota-Corolla-c33705,2026-10-23T21:41:58.925839+00:00
+Toyota,Corolla,2024,t108652,SE FWD,24490,FWD,https://www.cargurus.com/research/2024-Toyota-Corolla-c33099,2026-10-23T21:42:00.233818+00:00
+Toyota,Corolla,2024,t108653,XSE FWD,27150,FWD,https://www.cargurus.com/research/2024-Toyota-Corolla-c33099,2026-10-23T21:42:00.233818+00:00
+Toyota,Corolla,2024,t108651,LE FWD,22050,FWD,https://www.cargurus.com/research/2024-Toyota-Corolla-c33099,2026-10-23T21:42:00.233818+00:00
+Toyota,Corolla,2024,t108654,Nightshade FWD,25490,FWD,https://www.cargurus.com/research/2024-Toyota-Corolla-c33099,2026-10-23T21:42:00.233818+00:00
+Toyota,Corolla,2023,t105089,LE FWD,21700,FWD,https://www.cargurus.com/research/2023-Toyota-Corolla-c32598,2026-10-23T21:42:01.656446+00:00
+Toyota,Corolla,2023,t105094,SE FWD,24140,FWD,https://www.cargurus.com/research/2023-Toyota-Corolla-c32598,2026-10-23T21:42:01.656446+00:00
+Toyota,Corolla,2023,t105093,XSE FWD,26850,FWD,https://www.cargurus.com/research/2023-Toyota-Corolla-c32598,2026-10-23T21:42:01.656446+00:00
+Toyota,Corolla,2022,t98101,L FWD,20425,FWD,https://www.cargurus.com/research/2022-Toyota-Corolla-c31815,2026-10-23T21:42:03.042568+00:00
+Toyota,Corolla,2022,t98100,XLE FWD,24825,FWD,https://www.cargurus.com/research/2022-Toyota-Corolla-c31815,2026-10-23T21:42:03.042568+00:00
+Toyota,Corolla,2022,t98098,XSE Apex FWD,28710,FWD,https://www.cargurus.com/research/2022-Toyota-Corolla-c31815,2026-10-23T21:42:03.042568+00:00
+Toyota,Corolla,2022,t98097,SE Apex FWD,25570,FWD,https://www.cargurus.com/research/2022-Toyota-Corolla-c31815,2026-10-23T21:42:03.042568+00:00
+Toyota,Corolla,2022,t98096,LE FWD,20875,FWD,https://www.cargurus.com/research/2022-Toyota-Corolla-c31815,2026-10-23T21:42:03.042568+00:00
+Toyota,Corolla,2022,t98095,SE Nightshade Edition FWD,23575,FWD,https://www.cargurus.com/research/2022-Toyota-Corolla-c31815,2026-10-23T21:42:03.042568+00:00
+Toyota,Corolla,2022,t98094,SE FWD,22875,FWD,https://www.cargurus.com/research/2022-Toyota-Corolla-c31815,2026-10-23T21:42:03.042568+00:00
+Toyota,Corolla,2022,t98093,XSE FWD,26325,FWD,https://www.cargurus.com/research/2022-Toyota-Corolla-c31815,2026-10-23T21:42:03.042568+00:00
+Toyota,Corolla,2021,t92966,LE FWD,20475,FWD,https://www.cargurus.com/research/2021-Toyota-Corolla-c30416,2026-10-23T21:42:04.420016+00:00
+Toyota,Corolla,2021,t92967,SE Nightshade Edition FWD,23175,FWD,https://www.cargurus.com/research/2021-Toyota-Corolla-c30416,2026-10-23T21:42:04.420016+00:00
+Toyota,Corolla,2021,t92968,SE FWD,22475,FWD,https://www.cargurus.com/research/2021-Toyota-Corolla-c30416,2026-10-23T21:42:04.420016+00:00
+Toyota,Corolla,2021,t92969,XLE FWD,24425,FWD,https://www.cargurus.com/research/2021-Toyota-Corolla-c30416,2026-10-23T21:42:04.420016+00:00
+Toyota,Corolla,2021,t92965,L FWD,20025,FWD,https://www.cargurus.com/research/2021-Toyota-Corolla-c30416,2026-10-23T21:42:04.420016+00:00
+Toyota,Corolla,2021,t92970,XSE FWD,25925,FWD,https://www.cargurus.com/research/2021-Toyota-Corolla-c30416,2026-10-23T21:42:04.420016+00:00
+Toyota,Corolla,2021,t96762,SE Apex FWD,25170,FWD,https://www.cargurus.com/research/2021-Toyota-Corolla-c30416,2026-10-23T21:42:04.420016+00:00
+Toyota,Corolla,2021,t114257,XSE Apex FWD,28310,FWD,https://www.cargurus.com/research/2021-Toyota-Corolla-c30416,2026-10-23T21:42:04.420016+00:00
+Toyota,Corolla,2020,t85112,XLE FWD,24825,FWD,https://www.cargurus.com/research/2020-Toyota-Corolla-c28917,2026-10-23T21:42:06.034491+00:00
+Toyota,Corolla,2020,t85113,LE FWD,23325,,https://www.cargurus.com/research/2020-Toyota-Corolla-c28917,2026-10-23T21:42:06.034491+00:00
+Toyota,Corolla,2020,t85109,SE FWD,25765,,https://www.cargurus.com/research/2020-Toyota-Corolla-c28917,2026-10-23T21:42:06.034491+00:00
+Toyota,Corolla,2020,t89103,Nightshade FWD,25490,FWD,https://www.cargurus.com/research/2020-Toyota-Corolla-c28917,2026-10-23T21:42:06.034491+00:00
+Toyota,Corolla,2020,t85110,XSE FWD,29040,,https://www.cargurus.com/research/2020-Toyota-Corolla-c28917,2026-10-23T21:42:06.034491+00:00
+Toyota,Corolla,2019,t78888,L,18700,FWD,https://www.cargurus.com/research/2019-Toyota-Corolla-c27691,2026-10-23T21:42:07.344614+00:00
+Toyota,Corolla,2019,t78889,LE,19135,FWD,https://www.cargurus.com/research/2019-Toyota-Corolla-c27691,2026-10-23T21:42:07.344614+00:00
+Toyota,Corolla,2019,t78891,SE,20645,FWD,https://www.cargurus.com/research/2019-Toyota-Corolla-c27691,2026-10-23T21:42:07.344614+00:00
+Toyota,Corolla,2019,t78890,LE Eco,19535,FWD,https://www.cargurus.com/research/2019-Toyota-Corolla-c27691,2026-10-23T21:42:07.344614+00:00
+Toyota,Corolla,2019,t78893,XSE,22880,FWD,https://www.cargurus.com/research/2019-Toyota-Corolla-c27691,2026-10-23T21:42:07.344614+00:00
+Toyota,Corolla,2019,t78892,XLE,22135,FWD,https://www.cargurus.com/research/2019-Toyota-Corolla-c27691,2026-10-23T21:42:07.344614+00:00
+Toyota,Corolla,2018,t73364,LE Eco,19435,FWD,https://www.cargurus.com/research/2018-Toyota-Corolla-c26676,2026-10-23T21:42:08.739620+00:00
+Toyota,Corolla,2018,t73363,LE,19035,FWD,https://www.cargurus.com/research/2018-Toyota-Corolla-c26676,2026-10-23T21:42:08.739620+00:00
+Toyota,Corolla,2018,t73366,XLE,22035,FWD,https://www.cargurus.com/research/2018-Toyota-Corolla-c26676,2026-10-23T21:42:08.739620+00:00
+Toyota,Corolla,2018,t73365,SE,20545,FWD,https://www.cargurus.com/research/2018-Toyota-Corolla-c26676,2026-10-23T21:42:08.739620+00:00
+Toyota,Corolla,2018,t73367,XSE,22780,FWD,https://www.cargurus.com/research/2018-Toyota-Corolla-c26676,2026-10-23T21:42:08.739620+00:00
+Toyota,Corolla,2018,t73362,L,18600,FWD,https://www.cargurus.com/research/2018-Toyota-Corolla-c26676,2026-10-23T21:42:08.739620+00:00
+Toyota,Corolla,2017,t68319,SE,20445,FWD,https://www.cargurus.com/research/2017-Toyota-Corolla-c26003,2026-10-23T21:42:10.304847+00:00
+Toyota,Corolla,2017,t68318,LE Eco,19335,FWD,https://www.cargurus.com/research/2017-Toyota-Corolla-c26003,2026-10-23T21:42:10.304847+00:00
+Toyota,Corolla,2017,t68317,LE,18935,FWD,https://www.cargurus.com/research/2017-Toyota-Corolla-c26003,2026-10-23T21:42:10.304847+00:00
+Toyota,Corolla,2017,t68316,L,18500,FWD,https://www.cargurus.com/research/2017-Toyota-Corolla-c26003,2026-10-23T21:42:10.304847+00:00
+Toyota,Corolla,2017,t68322,XLE,21825,FWD,https://www.cargurus.com/research/2017-Toyota-Corolla-c26003,2026-10-23T21:42:10.304847+00:00
+Toyota,Corolla,2017,t68321,XSE,22680,FWD,https://www.cargurus.com/research/2017-Toyota-Corolla-c26003,2026-10-23T21:42:10.304847+00:00
+Toyota,Corolla,2017,t68320,50th Anniversary Edition,21900,FWD,https://www.cargurus.com/research/2017-Toyota-Corolla-c26003,2026-10-23T21:42:10.304847+00:00
+Toyota,Corolla,2016,t59681,S Premium,23125,FWD,https://www.cargurus.com/research/2016-Toyota-Corolla-c25199,2026-10-23T21:42:12.102112+00:00
+Toyota,Corolla,2016,t59680,S Plus,20065,FWD,https://www.cargurus.com/research/2016-Toyota-Corolla-c25199,2026-10-23T21:42:12.102112+00:00
+Toyota,Corolla,2016,t59679,S,19365,FWD,https://www.cargurus.com/research/2016-Toyota-Corolla-c25199,2026-10-23T21:42:12.102112+00:00
+Toyota,Corolla,2016,t59678,LE Premium,22195,FWD,https://www.cargurus.com/research/2016-Toyota-Corolla-c25199,2026-10-23T21:42:12.102112+00:00
+Toyota,Corolla,2016,t59677,LE Plus,19135,FWD,https://www.cargurus.com/research/2016-Toyota-Corolla-c25199,2026-10-23T21:42:12.102112+00:00
+Toyota,Corolla,2016,t59676,LE,18735,FWD,https://www.cargurus.com/research/2016-Toyota-Corolla-c25199,2026-10-23T21:42:12.102112+00:00
+Toyota,Corolla,2016,t59675,L,17300,FWD,https://www.cargurus.com/research/2016-Toyota-Corolla-c25199,2026-10-23T21:42:12.102112+00:00
+Toyota,Corolla,2016,t59685,Special Edition Package,20635,FWD,https://www.cargurus.com/research/2016-Toyota-Corolla-c25199,2026-10-23T21:42:12.102112+00:00
+Toyota,Corolla,2016,t59684,Eco Premium,22895,FWD,https://www.cargurus.com/research/2016-Toyota-Corolla-c25199,2026-10-23T21:42:12.102112+00:00
+Toyota,Corolla,2016,t59683,Eco Plus,19835,FWD,https://www.cargurus.com/research/2016-Toyota-Corolla-c25199,2026-10-23T21:42:12.102112+00:00
+Toyota,Corolla,2016,t59682,Eco,19135,FWD,https://www.cargurus.com/research/2016-Toyota-Corolla-c25199,2026-10-23T21:42:12.102112+00:00
+Toyota,Corolla,2015,t56490,LE Premium,22025,FWD,https://www.cargurus.com/research/2015-Toyota-Corolla-c24601,2026-10-23T21:42:14.261224+00:00
+Toyota,Corolla,2015,t56491,LE Plus,18965,FWD,https://www.cargurus.com/research/2015-Toyota-Corolla-c24601,2026-10-23T21:42:14.261224+00:00
+Toyota,Corolla,2015,t56489,S,19195,FWD,https://www.cargurus.com/research/2015-Toyota-Corolla-c24601,2026-10-23T21:42:14.261224+00:00
+Toyota,Corolla,2015,t56487,L,16950,FWD,https://www.cargurus.com/research/2015-Toyota-Corolla-c24601,2026-10-23T21:42:14.261224+00:00
+Toyota,Corolla,2015,t56488,S Premium,22955,FWD,https://www.cargurus.com/research/2015-Toyota-Corolla-c24601,2026-10-23T21:42:14.261224+00:00
+Toyota,Corolla,2015,t56486,S Plus,19895,FWD,https://www.cargurus.com/research/2015-Toyota-Corolla-c24601,2026-10-23T21:42:14.261224+00:00
+Toyota,Corolla,2015,t56494,LE Eco,18965,FWD,https://www.cargurus.com/research/2015-Toyota-Corolla-c24601,2026-10-23T21:42:14.261224+00:00
+Toyota,Corolla,2015,t56495,LE,18565,FWD,https://www.cargurus.com/research/2015-Toyota-Corolla-c24601,2026-10-23T21:42:14.261224+00:00
+Toyota,Corolla,2015,t56492,LE Eco Premium,22725,FWD,https://www.cargurus.com/research/2015-Toyota-Corolla-c24601,2026-10-23T21:42:14.261224+00:00
+Toyota,Corolla,2015,t56493,LE Eco Plus,19665,FWD,https://www.cargurus.com/research/2015-Toyota-Corolla-c24601,2026-10-23T21:42:14.261224+00:00
+Toyota,RAV4,2025,t113261,Limited AWD,39505,AWD,https://www.cargurus.com/research/2025-Toyota-RAV4-c33784,2026-10-23T21:42:15.763644+00:00
+Toyota,RAV4,2025,t113262,Limited FWD,38105,FWD,https://www.cargurus.com/research/2025-Toyota-RAV4-c33784,2026-10-23T21:42:15.763644+00:00
+Toyota,RAV4,2025,t113260,LE FWD,29800,FWD,https://www.cargurus.com/research/2025-Toyota-RAV4-c33784,2026-10-23T21:42:15.763644+00:00
+Toyota,RAV4,2025,t113265,XLE AWD,32710,AWD,https://www.cargurus.com/research/2025-Toyota-RAV4-c33784,2026-10-23T21:42:15.763644+00:00
+Toyota,RAV4,2025,t113266,XLE FWD,31310,FWD,https://www.cargurus.com/research/2025-Toyota-RAV4-c33784,2026-10-23T21:42:15.763644+00:00
+Toyota,RAV4,2025,t113263,XLE Premium AWD,35600,AWD,https://www.cargurus.com/research/2025-Toyota-RAV4-c33784,2026-10-23T21:42:15.763644+00:00
+Toyota,RAV4,2025,t113264,XLE Premium FWD,34200,FWD,https://www.cargurus.com/research/2025-Toyota-RAV4-c33784,2026-10-23T21:42:15.763644+00:00
+Toyota,RAV4,2025,t113259,LE AWD,31200,AWD,https://www.cargurus.com/research/2025-Toyota-RAV4-c33784,2026-10-23T21:42:15.763644+00:00
+Toyota,RAV4,2024,t108862,Limited AWD,38380,AWD,https://www.cargurus.com/research/2024-Toyota-RAV4-c33137,2026-10-23T21:42:17.112244+00:00
+Toyota,RAV4,2024,t108871,LE FWD,28675,FWD,https://www.cargurus.com/research/2024-Toyota-RAV4-c33137,2026-10-23T21:42:17.112244+00:00
+Toyota,RAV4,2024,t108870,LE AWD,30075,AWD,https://www.cargurus.com/research/2024-Toyota-RAV4-c33137,2026-10-23T21:42:17.112244+00:00
+Toyota,RAV4,2024,t108869,TRD Off-Road AWD,38295,AWD,https://www.cargurus.com/research/2024-Toyota-RAV4-c33137,2026-10-23T21:42:17.112244+00:00
+Toyota,RAV4,2024,t108868,Adventure AWD,34870,AWD,https://www.cargurus.com/research/2024-Toyota-RAV4-c33137,2026-10-23T21:42:17.112244+00:00
+Toyota,RAV4,2024,t108867,XLE Premium FWD,33075,FWD,https://www.cargurus.com/research/2024-Toyota-RAV4-c33137,2026-10-23T21:42:17.112244+00:00
+Toyota,RAV4,2024,t108866,XLE Premium AWD,34475,AWD,https://www.cargurus.com/research/2024-Toyota-RAV4-c33137,2026-10-23T21:42:17.112244+00:00
+Toyota,RAV4,2024,t108865,XLE FWD,30185,FWD,https://www.cargurus.com/research/2024-Toyota-RAV4-c33137,2026-10-23T21:42:17.112244+00:00
+Toyota,RAV4,2024,t108864,XLE AWD,31585,AWD,https://www.cargurus.com/research/2024-Toyota-RAV4-c33137,2026-10-23T21:42:17.112244+00:00
+Toyota,RAV4,2024,t108863,Limited FWD,36980,FWD,https://www.cargurus.com/research/2024-Toyota-RAV4-c33137,2026-10-23T21:42:17.112244+00:00
+Toyota,RAV4,2023,t105318,LE FWD,28275,FWD,https://www.cargurus.com/research/2023-Toyota-RAV4-c32667,2026-10-23T21:42:18.501001+00:00
+Toyota,RAV4,2023,t105309,TRD Off-Road AWD,37895,AWD,https://www.cargurus.com/research/2023-Toyota-RAV4-c32667,2026-10-23T21:42:18.501001+00:00
+Toyota,RAV4,2023,t105315,XLE FWD,29785,FWD,https://www.cargurus.com/research/2023-Toyota-RAV4-c32667,2026-10-23T21:42:18.501001+00:00
+Toyota,RAV4,2023,t105314,XLE AWD,31185,AWD,https://www.cargurus.com/research/2023-Toyota-RAV4-c32667,2026-10-23T21:42:18.501001+00:00
+Toyota,RAV4,2023,t105317,LE AWD,29675,AWD,https://www.cargurus.com/research/2023-Toyota-RAV4-c32667,2026-10-23T21:42:18.501001+00:00
+Toyota,RAV4,2023,t105316,XLE Premium FWD,32675,FWD,https://www.cargurus.com/research/2023-Toyota-RAV4-c32667,2026-10-23T21:42:18.501001+00:00
+Toyota,RAV4,2023,t105311,XLE Premium AWD,34075,AWD,https://www.cargurus.com/research/2023-Toyota-RAV4-c32667,2026-10-23T21:42:18.501001+00:00
+Toyota,RAV4,2023,t105310,Adventure AWD,34470,AWD,https://www.cargurus.com/research/2023-Toyota-RAV4-c32667,2026-10-23T21:42:18.501001+00:00
+Toyota,RAV4,2023,t105313,Limited FWD,36580,FWD,https://www.cargurus.com/research/2023-Toyota-RAV4-c32667,2026-10-23T21:42:18.501001+00:00
+Toyota,RAV4,2023,t105312,Limited AWD,37980,AWD,https://www.cargurus.com/research/2023-Toyota-RAV4-c32667,2026-10-23T21:42:18.501001+00:00
+Toyota,RAV4,2022,t100259,LE FWD,26975,FWD,https://www.cargurus.com/research/2022-Toyota-RAV4-c32096,2026-10-23T21:42:20.220767+00:00
+Toyota,RAV4,2022,t100258,LE AWD,28375,AWD,https://www.cargurus.com/research/2022-Toyota-RAV4-c32096,2026-10-23T21:42:20.220767+00:00
+Toyota,RAV4,2022,t100253,XLE FWD,28445,FWD,https://www.cargurus.com/research/2022-Toyota-RAV4-c32096,2026-10-23T21:42:20.220767+00:00
+Toyota,RAV4,2022,t100252,XLE Premium FWD,31335,FWD,https://www.cargurus.com/research/2022-Toyota-RAV4-c32096,2026-10-23T21:42:20.220767+00:00
+Toyota,RAV4,2022,t100251,XLE Premium AWD,32735,AWD,https://www.cargurus.com/research/2022-Toyota-RAV4-c32096,2026-10-23T21:42:20.220767+00:00
+Toyota,RAV4,2022,t100250,Adventure AWD,33230,AWD,https://www.cargurus.com/research/2022-Toyota-RAV4-c32096,2026-10-23T21:42:20.220767+00:00
+Toyota,RAV4,2022,t100257,TRD Off-Road AWD,36915,AWD,https://www.cargurus.com/research/2022-Toyota-RAV4-c32096,2026-10-23T21:42:20.220767+00:00
+Toyota,RAV4,2022,t100256,Limited FWD,35475,FWD,https://www.cargurus.com/research/2022-Toyota-RAV4-c32096,2026-10-23T21:42:20.220767+00:00
+Toyota,RAV4,2022,t100255,Limited AWD,36875,AWD,https://www.cargurus.com/research/2022-Toyota-RAV4-c32096,2026-10-23T21:42:20.220767+00:00
+Toyota,RAV4,2022,t100254,XLE AWD,29395,AWD,https://www.cargurus.com/research/2022-Toyota-RAV4-c32096,2026-10-23T21:42:20.220767+00:00
+Toyota,RAV4,2021,t94030,LE FWD,26350,FWD,https://www.cargurus.com/research/2021-Toyota-RAV4-c30803,2026-10-23T21:42:21.935958+00:00
+Toyota,RAV4,2021,t94029,LE AWD,27750,AWD,https://www.cargurus.com/research/2021-Toyota-RAV4-c30803,2026-10-23T21:42:21.935958+00:00
+Toyota,RAV4,2021,t94026,XLE AWD,29045,AWD,https://www.cargurus.com/research/2021-Toyota-RAV4-c30803,2026-10-23T21:42:21.935958+00:00
+Toyota,RAV4,2021,t94025,Adventure AWD,33455,AWD,https://www.cargurus.com/research/2021-Toyota-RAV4-c30803,2026-10-23T21:42:21.935958+00:00
+Toyota,RAV4,2021,t94028,TRD Off-Road AWD,36080,AWD,https://www.cargurus.com/research/2021-Toyota-RAV4-c30803,2026-10-23T21:42:21.935958+00:00
+Toyota,RAV4,2021,t94027,XLE FWD,27645,FWD,https://www.cargurus.com/research/2021-Toyota-RAV4-c30803,2026-10-23T21:42:21.935958+00:00
+Toyota,RAV4,2021,t94022,XLE Premium FWD,30350,FWD,https://www.cargurus.com/research/2021-Toyota-RAV4-c30803,2026-10-23T21:42:21.935958+00:00
+Toyota,RAV4,2021,t94021,XLE Premium AWD,31750,AWD,https://www.cargurus.com/research/2021-Toyota-RAV4-c30803,2026-10-23T21:42:21.935958+00:00
+Toyota,RAV4,2021,t94024,Limited AWD,36280,AWD,https://www.cargurus.com/research/2021-Toyota-RAV4-c30803,2026-10-23T21:42:21.935958+00:00
+Toyota,RAV4,2021,t94023,Limited FWD,34880,FWD,https://www.cargurus.com/research/2021-Toyota-RAV4-c30803,2026-10-23T21:42:21.935958+00:00
+Toyota,RAV4,2020,t89226,Adventure AWD,33055,AWD,https://www.cargurus.com/research/2020-Toyota-RAV4-c29023,2026-10-23T21:42:23.351200+00:00
+Toyota,RAV4,2020,t89228,LE FWD,25950,FWD,https://www.cargurus.com/research/2020-Toyota-RAV4-c29023,2026-10-23T21:42:23.351200+00:00
+Toyota,RAV4,2020,t89227,LE AWD,27350,AWD,https://www.cargurus.com/research/2020-Toyota-RAV4-c29023,2026-10-23T21:42:23.351200+00:00
+Toyota,RAV4,2020,t89229,Limited AWD,35880,AWD,https://www.cargurus.com/research/2020-Toyota-RAV4-c29023,2026-10-23T21:42:23.351200+00:00
+Toyota,RAV4,2020,t89231,XLE AWD,28645,AWD,https://www.cargurus.com/research/2020-Toyota-RAV4-c29023,2026-10-23T21:42:23.351200+00:00
+Toyota,RAV4,2020,t89230,Limited FWD,34480,FWD,https://www.cargurus.com/research/2020-Toyota-RAV4-c29023,2026-10-23T21:42:23.351200+00:00
+Toyota,RAV4,2020,t89233,XLE Premium AWD,31350,AWD,https://www.cargurus.com/research/2020-Toyota-RAV4-c29023,2026-10-23T21:42:23.351200+00:00
+Toyota,RAV4,2020,t89232,XLE FWD,27245,FWD,https://www.cargurus.com/research/2020-Toyota-RAV4-c29023,2026-10-23T21:42:23.351200+00:00
+Toyota,RAV4,2020,t89235,TRD Off-Road AWD,35280,AWD,https://www.cargurus.com/research/2020-Toyota-RAV4-c29023,2026-10-23T21:42:23.351200+00:00
+Toyota,RAV4,2020,t89234,XLE Premium FWD,29950,FWD,https://www.cargurus.com/research/2020-Toyota-RAV4-c29023,2026-10-23T21:42:23.351200+00:00
+Toyota,RAV4,2019,t84309,XLE FWD,27450,FWD,https://www.cargurus.com/research/2019-Toyota-RAV4-c27610,2026-10-23T21:42:24.851137+00:00
+Toyota,RAV4,2019,t84317,XLE AWD,28850,AWD,https://www.cargurus.com/research/2019-Toyota-RAV4-c27610,2026-10-23T21:42:24.851137+00:00
+Toyota,RAV4,2019,t84316,XLE Premium AWD,31050,AWD,https://www.cargurus.com/research/2019-Toyota-RAV4-c27610,2026-10-23T21:42:24.851137+00:00
+Toyota,RAV4,2019,t84315,XLE Premium FWD,29650,FWD,https://www.cargurus.com/research/2019-Toyota-RAV4-c27610,2026-10-23T21:42:24.851137+00:00
+Toyota,RAV4,2019,t84314,Limited FWD,33650,FWD,https://www.cargurus.com/research/2019-Toyota-RAV4-c27610,2026-10-23T21:42:24.851137+00:00
+Toyota,RAV4,2019,t84313,Adventure AWD,33050,AWD,https://www.cargurus.com/research/2019-Toyota-RAV4-c27610,2026-10-23T21:42:24.851137+00:00
+Toyota,RAV4,2019,t84312,Limited AWD,35050,AWD,https://www.cargurus.com/research/2019-Toyota-RAV4-c27610,2026-10-23T21:42:24.851137+00:00
+Toyota,RAV4,2019,t84311,LE AWD,27050,AWD,https://www.cargurus.com/research/2019-Toyota-RAV4-c27610,2026-10-23T21:42:24.851137+00:00
+Toyota,RAV4,2019,t84310,LE FWD,25650,FWD,https://www.cargurus.com/research/2019-Toyota-RAV4-c27610,2026-10-23T21:42:24.851137+00:00
+Toyota,RAV4,2018,t74772,SE AWD,30440,AWD,https://www.cargurus.com/research/2018-Toyota-RAV4-c26657,2026-10-23T21:42:26.245140+00:00
+Toyota,RAV4,2018,t74771,SE,29040,FWD,https://www.cargurus.com/research/2018-Toyota-RAV4-c26657,2026-10-23T21:42:26.245140+00:00
+Toyota,RAV4,2018,t74774,XLE AWD,27150,AWD,https://www.cargurus.com/research/2018-Toyota-RAV4-c26657,2026-10-23T21:42:26.245140+00:00
+Toyota,RAV4,2018,t74773,XLE,25750,FWD,https://www.cargurus.com/research/2018-Toyota-RAV4-c26657,2026-10-23T21:42:26.245140+00:00
+Toyota,RAV4,2018,t74765,LE,24660,FWD,https://www.cargurus.com/research/2018-Toyota-RAV4-c26657,2026-10-23T21:42:26.245140+00:00
+Toyota,RAV4,2018,t74776,Adventure,27950,FWD,https://www.cargurus.com/research/2018-Toyota-RAV4-c26657,2026-10-23T21:42:26.245140+00:00
+Toyota,RAV4,2018,t74775,Adventure AWD,28650,AWD,https://www.cargurus.com/research/2018-Toyota-RAV4-c26657,2026-10-23T21:42:26.245140+00:00
+Toyota,RAV4,2018,t74767,Limited,31155,FWD,https://www.cargurus.com/research/2018-Toyota-RAV4-c26657,2026-10-23T21:42:26.245140+00:00
+Toyota,RAV4,2018,t74766,LE AWD,26060,AWD,https://www.cargurus.com/research/2018-Toyota-RAV4-c26657,2026-10-23T21:42:26.245140+00:00
+Toyota,RAV4,2018,t74769,Platinum,35000,FWD,https://www.cargurus.com/research/2018-Toyota-RAV4-c26657,2026-10-23T21:42:26.245140+00:00
+Toyota,RAV4,2018,t74768,Limited AWD,32555,AWD,https://www.cargurus.com/research/2018-Toyota-RAV4-c26657,2026-10-23T21:42:26.245140+00:00
+Toyota,RAV4,2018,t74770,Platinum AWD,36400,AWD,https://www.cargurus.com/research/2018-Toyota-RAV4-c26657,2026-10-23T21:42:26.245140+00:00
+Toyota,RAV4,2017,t68329,XLE,25500,FWD,https://www.cargurus.com/research/2017-Toyota-RAV4-c26004,2026-10-23T21:42:28.307164+00:00
+Toyota,RAV4,2017,t68326,Limited AWD,32305,AWD,https://www.cargurus.com/research/2017-Toyota-RAV4-c26004,2026-10-23T21:42:28.307164+00:00
+Toyota,RAV4,2017,t68325,Limited,30905,FWD,https://www.cargurus.com/research/2017-Toyota-RAV4-c26004,2026-10-23T21:42:28.307164+00:00
+Toyota,RAV4,2017,t68328,Platinum AWD,36150,AWD,https://www.cargurus.com/research/2017-Toyota-RAV4-c26004,2026-10-23T21:42:28.307164+00:00
+Toyota,RAV4,2017,t68327,Platinum,34750,FWD,https://www.cargurus.com/research/2017-Toyota-RAV4-c26004,2026-10-23T21:42:28.307164+00:00
+Toyota,RAV4,2017,t68324,LE AWD,25810,AWD,https://www.cargurus.com/research/2017-Toyota-RAV4-c26004,2026-10-23T21:42:28.307164+00:00
+Toyota,RAV4,2017,t70453,SE AWD,30190,AWD,https://www.cargurus.com/research/2017-Toyota-RAV4-c26004,2026-10-23T21:42:28.307164+00:00
+Toyota,RAV4,2017,t68323,LE,24410,FWD,https://www.cargurus.com/research/2017-Toyota-RAV4-c26004,2026-10-23T21:42:28.307164+00:00
+Toyota,RAV4,2017,t70452,SE,28790,FWD,https://www.cargurus.com/research/2017-Toyota-RAV4-c26004,2026-10-23T21:42:28.307164+00:00
+Toyota,RAV4,2017,t68330,XLE AWD,26900,AWD,https://www.cargurus.com/research/2017-Toyota-RAV4-c26004,2026-10-23T21:42:28.307164+00:00
+Toyota,RAV4,2016,t64027,SE AWD,30665,AWD,https://www.cargurus.com/research/2016-Toyota-RAV4-c24888,2026-10-23T21:42:30.041637+00:00
+Toyota,RAV4,2016,t60641,LE AWD,25750,AWD,https://www.cargurus.com/research/2016-Toyota-RAV4-c24888,2026-10-23T21:42:30.041637+00:00
+Toyota,RAV4,2016,t60640,LE,24350,FWD,https://www.cargurus.com/research/2016-Toyota-RAV4-c24888,2026-10-23T21:42:30.041637+00:00
+Toyota,RAV4,2016,t60643,Limited AWD,32910,AWD,https://www.cargurus.com/research/2016-Toyota-RAV4-c24888,2026-10-23T21:42:30.041637+00:00
+Toyota,RAV4,2016,t60642,Limited,31510,FWD,https://www.cargurus.com/research/2016-Toyota-RAV4-c24888,2026-10-23T21:42:30.041637+00:00
+Toyota,RAV4,2016,t64028,SE,29265,FWD,https://www.cargurus.com/research/2016-Toyota-RAV4-c24888,2026-10-23T21:42:30.041637+00:00
+Toyota,RAV4,2016,t60645,XLE AWD,27670,AWD,https://www.cargurus.com/research/2016-Toyota-RAV4-c24888,2026-10-23T21:42:30.041637+00:00
+Toyota,RAV4,2016,t60644,XLE,26270,FWD,https://www.cargurus.com/research/2016-Toyota-RAV4-c24888,2026-10-23T21:42:30.041637+00:00
+Toyota,RAV4,2015,t56674,XLE,25240,FWD,https://www.cargurus.com/research/2015-Toyota-RAV4-c24629,2026-10-23T21:42:31.661948+00:00
+Toyota,RAV4,2015,t56675,XLE AWD,26640,AWD,https://www.cargurus.com/research/2015-Toyota-RAV4-c24629,2026-10-23T21:42:31.661948+00:00
+Toyota,RAV4,2015,t56672,Limited,28450,FWD,https://www.cargurus.com/research/2015-Toyota-RAV4-c24629,2026-10-23T21:42:31.661948+00:00
+Toyota,RAV4,2015,t56673,Limited AWD,29850,AWD,https://www.cargurus.com/research/2015-Toyota-RAV4-c24629,2026-10-23T21:42:31.661948+00:00
+Toyota,RAV4,2015,t56670,LE,23680,FWD,https://www.cargurus.com/research/2015-Toyota-RAV4-c24629,2026-10-23T21:42:31.661948+00:00
+Toyota,RAV4,2015,t56671,LE AWD,25080,AWD,https://www.cargurus.com/research/2015-Toyota-RAV4-c24629,2026-10-23T21:42:31.661948+00:00
+Honda,Accord,2025,t112899,SE FWD,30560,FWD,https://www.cargurus.com/research/2025-Honda-Accord-c33739,2026-10-23T21:42:33.606347+00:00
+Honda,Accord,2025,t112898,LX FWD,28295,FWD,https://www.cargurus.com/research/2025-Honda-Accord-c33739,2026-10-23T21:42:33.606347+00:00
+Honda,Accord,2024,t108845,LX FWD,27895,FWD,https://www.cargurus.com/research/2024-Honda-Accord-c33134,2026-10-23T21:43:08.936280+00:00
+Honda,Accord,2024,t108844,EX FWD,29910,FWD,https://www.cargurus.com/research/2024-Honda-Accord-c33134,2026-10-23T21:43:08.936280+00:00
+Honda,Accord,2023,t106591,EX FWD w/o BSI,29060,FWD,https://www.cargurus.com/research/2023-Honda-Accord-c32635,2026-10-23T21:43:10.498332+00:00
+Honda,Accord,2023,t105777,LX FWD,27295,FWD,https://www.cargurus.com/research/2023-Honda-Accord-c32635,2026-10-23T21:43:10.498332+00:00
+Honda,Accord,2023,t105778,EX FWD,29610,FWD,https://www.cargurus.com/research/2023-Honda-Accord-c32635,2026-10-23T21:43:10.498332+00:00
+Honda,Accord,2022,t99805,EX-L FWD,32840,FWD,https://www.cargurus.com/research/2022-Honda-Accord-c32036,2026-10-23T21:43:12.304456+00:00
+Honda,Accord,2022,t99806,Touring FWD,38450,FWD,https://www.cargurus.com/research/2022-Honda-Accord-c32036,2026-10-23T21:43:12.304456+00:00
+Honda,Accord,2022,t99807,Sport FWD,28980,FWD,https://www.cargurus.com/research/2022-Honda-Accord-c32036,2026-10-23T21:43:12.304456+00:00
+Honda,Accord,2022,t99808,Sport Special Edition FWD,30470,FWD,https://www.cargurus.com/research/2022-Honda-Accord-c32036,2026-10-23T21:43:12.304456+00:00
+Honda,Accord,2022,t99809,LX FWD,26520,FWD,https://www.cargurus.com/research/2022-Honda-Accord-c32036,2026-10-23T21:43:12.304456+00:00
+Honda,Accord,2021,t95053,Touring FWD,36900,FWD,https://www.cargurus.com/research/2021-Honda-Accord-c31000,2026-10-23T21:43:14.294322+00:00
+Honda,Accord,2021,t95054,Sport FWD,27430,FWD,https://www.cargurus.com/research/2021-Honda-Accord-c31000,2026-10-23T21:43:14.294322+00:00
+Honda,Accord,2021,t95051,LX FWD,24970,FWD,https://www.cargurus.com/research/2021-Honda-Accord-c31000,2026-10-23T21:43:14.294322+00:00
+Honda,Accord,2021,t95052,EX-L FWD,31290,FWD,https://www.cargurus.com/research/2021-Honda-Accord-c31000,2026-10-23T21:43:14.294322+00:00
+Honda,Accord,2021,t95056,Sport Special Edition FWD,28920,FWD,https://www.cargurus.com/research/2021-Honda-Accord-c31000,2026-10-23T21:43:14.294322+00:00
+Honda,Accord,2020,t88933,1.5T EX FWD,28070,FWD,https://www.cargurus.com/research/2020-Honda-Accord-c29747,2026-10-23T21:43:15.714468+00:00
+Honda,Accord,2020,t88935,2.0T EX-L FWD,32570,FWD,https://www.cargurus.com/research/2020-Honda-Accord-c29747,2026-10-23T21:43:15.714468+00:00
+Honda,Accord,2020,t88934,1.5T EX-L FWD,30570,FWD,https://www.cargurus.com/research/2020-Honda-Accord-c29747,2026-10-23T21:43:15.714468+00:00
+Honda,Accord,2020,t88937,1.5T Sport FWD,26980,FWD,https://www.cargurus.com/research/2020-Honda-Accord-c29747,2026-10-23T21:43:15.714468+00:00
+Honda,Accord,2020,t88936,1.5T LX FWD,24270,FWD,https://www.cargurus.com/research/2020-Honda-Accord-c29747,2026-10-23T21:43:15.714468+00:00
+Honda,Accord,2020,t88939,2.0T Touring FWD,36400,FWD,https://www.cargurus.com/research/2020-Honda-Accord-c29747,2026-10-23T21:43:15.714468+00:00
+Honda,Accord,2020,t88938,2.0T Sport FWD,31510,FWD,https://www.cargurus.com/research/2020-Honda-Accord-c29747,2026-10-23T21:43:15.714468+00:00
+Honda,Accord,2019,t84120,1.5T EX FWD,27620,FWD,https://www.cargurus.com/research/2019-Honda-Accord-c28862,2026-10-23T21:43:17.212731+00:00
+Honda,Accord,2019,t84126,2.0T Touring FWD,35950,FWD,https://www.cargurus.com/research/2019-Honda-Accord-c28862,2026-10-23T21:43:17.212731+00:00
+Honda,Accord,2019,t84125,2.0T Sport FWD,30710,FWD,https://www.cargurus.com/research/2019-Honda-Accord-c28862,2026-10-23T21:43:17.212731+00:00
+Honda,Accord,2019,t84124,1.5T Sport FWD,26180,FWD,https://www.cargurus.com/research/2019-Honda-Accord-c28862,2026-10-23T21:43:17.212731+00:00
+Honda,Accord,2019,t84123,1.5T LX FWD,23720,FWD,https://www.cargurus.com/research/2019-Honda-Accord-c28862,2026-10-23T21:43:17.212731+00:00
+Honda,Accord,2019,t84122,2.0T EX-L FWD,32120,FWD,https://www.cargurus.com/research/2019-Honda-Accord-c28862,2026-10-23T21:43:17.212731+00:00
+Honda,Accord,2019,t84121,1.5T EX-L FWD,30120,FWD,https://www.cargurus.com/research/2019-Honda-Accord-c28862,2026-10-23T21:43:17.212731+00:00
+Honda,Accord,2018,t75510,1.5T Sport FWD,26980,FWD,https://www.cargurus.com/research/2018-Honda-Accord-c27103,2026-10-23T21:43:18.948147+00:00
+Honda,Accord,2018,t75507,1.5T EX-L FWD,30570,FWD,https://www.cargurus.com/research/2018-Honda-Accord-c27103,2026-10-23T21:43:18.948147+00:00
+Honda,Accord,2018,t77076,2.0T Touring FWD,36400,FWD,https://www.cargurus.com/research/2018-Honda-Accord-c27103,2026-10-23T21:43:18.948147+00:00
+Honda,Accord,2018,t77073,2.0T Sport FWD,31510,FWD,https://www.cargurus.com/research/2018-Honda-Accord-c27103,2026-10-23T21:43:18.948147+00:00
+Honda,Accord,2018,t75506,1.5T EX FWD,28070,FWD,https://www.cargurus.com/research/2018-Honda-Accord-c27103,2026-10-23T21:43:18.948147+00:00
+Honda,Accord,2018,t77074,2.0T EX-L FWD,32570,FWD,https://www.cargurus.com/research/2018-Honda-Accord-c27103,2026-10-23T21:43:18.948147+00:00
+Honda,Accord,2018,t75509,1.5T LX FWD,24270,FWD,https://www.cargurus.com/research/2018-Honda-Accord-c27103,2026-10-23T21:43:18.948147+00:00
+Honda,Accord,2017,t68050,V6 EX-L FWD with Navigation and Honda Sensing,32995,FWD,https://www.cargurus.com/research/2017-Honda-Accord-c25963,2026-10-23T21:43:20.433576+00:00
+Honda,Accord,2017,t68060,EX-L FWD,32840,FWD,https://www.cargurus.com/research/2017-Honda-Accord-c25963,2026-10-23T21:43:20.433576+00:00
+Honda,Accord,2017,t68052,LX FWD with Honda Sensing,24255,FWD,https://www.cargurus.com/research/2017-Honda-Accord-c25963,2026-10-23T21:43:20.433576+00:00
+Honda,Accord,2017,t68051,EX FWD,29910,FWD,https://www.cargurus.com/research/2017-Honda-Accord-c25963,2026-10-23T21:43:20.433576+00:00
+Honda,Accord,2017,t68058,V6 EX-L FWD,30995,FWD,https://www.cargurus.com/research/2017-Honda-Accord-c25963,2026-10-23T21:43:20.433576+00:00
+Honda,Accord,2017,t68057,Sport FWD,28980,FWD,https://www.cargurus.com/research/2017-Honda-Accord-c25963,2026-10-23T21:43:20.433576+00:00
+Honda,Accord,2017,t68049,V6 Touring FWD,34930,FWD,https://www.cargurus.com/research/2017-Honda-Accord-c25963,2026-10-23T21:43:20.433576+00:00
+Honda,Accord,2017,t68059,EX-L FWD with Navigation and Honda Sensing,30920,FWD,https://www.cargurus.com/research/2017-Honda-Accord-c25963,2026-10-23T21:43:20.433576+00:00
+Honda,Accord,2017,t68054,EX FWD with Honda Sensing,27630,FWD,https://www.cargurus.com/research/2017-Honda-Accord-c25963,2026-10-23T21:43:20.433576+00:00
+Honda,Accord,2017,t68053,LX FWD,28395,FWD,https://www.cargurus.com/research/2017-Honda-Accord-c25963,2026-10-23T21:43:20.433576+00:00
+Honda,Accord,2017,t68056,Sport FWD with Honda Sensing,26315,FWD,https://www.cargurus.com/research/2017-Honda-Accord-c25963,2026-10-23T21:43:20.433576+00:00
+Honda,Accord,2017,t68055,Sport SE FWD,25515,FWD,https://www.cargurus.com/research/2017-Honda-Accord-c25963,2026-10-23T21:43:20.433576+00:00
+Honda,Accord,2016,t59692,EX with Honda Sensing,27380,FWD,https://www.cargurus.com/research/2016-Honda-Accord-c25200,2026-10-23T21:43:22.420339+00:00
+Honda,Accord,2016,t66954,EX-L V6,30745,FWD,https://www.cargurus.com/research/2016-Honda-Accord-c25200,2026-10-23T21:43:22.420339+00:00
+Honda,Accord,2016,t59691,EX,25580,FWD,https://www.cargurus.com/research/2016-Honda-Accord-c25200,2026-10-23T21:43:22.420339+00:00
+Honda,Accord,2016,t59718,EX-L with Honda Sensing,30670,FWD,https://www.cargurus.com/research/2016-Honda-Accord-c25200,2026-10-23T21:43:22.420339+00:00
+Honda,Accord,2016,t59690,Sport with Honda Sensing,26065,FWD,https://www.cargurus.com/research/2016-Honda-Accord-c25200,2026-10-23T21:43:22.420339+00:00
+Honda,Accord,2016,t59689,Sport,24265,FWD,https://www.cargurus.com/research/2016-Honda-Accord-c25200,2026-10-23T21:43:22.420339+00:00
+Honda,Accord,2016,t59688,EX-L,28670,FWD,https://www.cargurus.com/research/2016-Honda-Accord-c25200,2026-10-23T21:43:22.420339+00:00
+Honda,Accord,2016,t59687,V6 Touring,34680,FWD,https://www.cargurus.com/research/2016-Honda-Accord-c25200,2026-10-23T21:43:22.420339+00:00
+Honda,Accord,2016,t59686,LX,22205,FWD,https://www.cargurus.com/research/2016-Honda-Accord-c25200,2026-10-23T21:43:22.420339+00:00
+Honda,Accord,2016,t59694,LX with Honda Sensing,24005,FWD,https://www.cargurus.com/research/2016-Honda-Accord-c25200,2026-10-23T21:43:22.420339+00:00
+Honda,Accord,2016,t59693,EX-L V6 with Honda Sensing,32745,FWD,https://www.cargurus.com/research/2016-Honda-Accord-c25200,2026-10-23T21:43:22.420339+00:00
+Honda,Accord,2015,t56658,EX,25030,FWD,https://www.cargurus.com/research/2015-Honda-Accord-c24627,2026-10-23T21:43:24.855325+00:00
+Honda,Accord,2015,t56659,EX-L with Nav,30195,FWD,https://www.cargurus.com/research/2015-Honda-Accord-c24627,2026-10-23T21:43:24.855325+00:00
+Honda,Accord,2015,t56656,Sport,23865,FWD,https://www.cargurus.com/research/2015-Honda-Accord-c24627,2026-10-23T21:43:24.855325+00:00
+Honda,Accord,2015,t56657,LX,22105,FWD,https://www.cargurus.com/research/2015-Honda-Accord-c24627,2026-10-23T21:43:24.855325+00:00
+Honda,Accord,2015,t56654,EX-L V6 with Nav,32270,FWD,https://www.cargurus.com/research/2015-Honda-Accord-c24627,2026-10-23T21:43:24.855325+00:00
+Honda,Accord,2015,t56655,EX-L V6,30495,FWD,https://www.cargurus.com/research/2015-Honda-Accord-c24627,2026-10-23T21:43:24.855325+00:00
+Honda,Accord,2015,t56653,Touring,33630,FWD,https://www.cargurus.com/research/2015-Honda-Accord-c24627,2026-10-23T21:43:24.855325+00:00
+Honda,Accord,2015,t56660,EX-L,28420,FWD,https://www.cargurus.com/research/2015-Honda-Accord-c24627,2026-10-23T21:43:24.855325+00:00
+Honda,Civic,2025,t111525,Sport FWD,26250,FWD,https://www.cargurus.com/research/2025-Honda-Civic-c33542,2026-10-23T21:43:26.901406+00:00
+Honda,Civic,2025,t111526,LX FWD,24250,FWD,https://www.cargurus.com/research/2025-Honda-Civic-c33542,2026-10-23T21:43:26.901406+00:00
+Honda,Civic,2025,t112057,Si FWD,30250,FWD,https://www.cargurus.com/research/2025-Honda-Civic-c33542,2026-10-23T21:43:26.901406+00:00
+Honda,Civic,2024,t108640,Sport FWD,25550,FWD,https://www.cargurus.com/research/2024-Honda-Civic-c33096,2026-10-23T21:43:28.256915+00:00
+Honda,Civic,2024,t108638,Touring FWD,30550,FWD,https://www.cargurus.com/research/2024-Honda-Civic-c33096,2026-10-23T21:43:28.256915+00:00
+Honda,Civic,2024,t108639,EX FWD,26950,FWD,https://www.cargurus.com/research/2024-Honda-Civic-c33096,2026-10-23T21:43:28.256915+00:00
+Honda,Civic,2024,t108636,LX FWD,23950,FWD,https://www.cargurus.com/research/2024-Honda-Civic-c33096,2026-10-23T21:43:28.256915+00:00
+Honda,Civic,2024,t108637,Si FWD,29100,FWD,https://www.cargurus.com/research/2024-Honda-Civic-c33096,2026-10-23T21:43:28.256915+00:00
+Honda,Civic,2023,t106992,EX FWD without BSI,26200,FWD,https://www.cargurus.com/research/2023-Honda-Civic-c32478,2026-10-23T21:43:29.971409+00:00
+Honda,Civic,2023,t104781,EX FWD,26750,FWD,https://www.cargurus.com/research/2023-Honda-Civic-c32478,2026-10-23T21:43:29.971409+00:00
+Honda,Civic,2023,t104780,Sport FWD,25350,FWD,https://www.cargurus.com/research/2023-Honda-Civic-c32478,2026-10-23T21:43:29.971409+00:00
+Honda,Civic,2023,t104779,LX FWD,23750,FWD,https://www.cargurus.com/research/2023-Honda-Civic-c32478,2026-10-23T21:43:29.971409+00:00
+Honda,Civic,2023,t104777,Si FWD,28800,FWD,https://www.cargurus.com/research/2023-Honda-Civic-c32478,2026-10-23T21:43:29.971409+00:00
+Honda,Civic,2023,t104782,Touring FWD,30350,FWD,https://www.cargurus.com/research/2023-Honda-Civic-c32478,2026-10-23T21:43:29.971409+00:00
+Honda,Civic,2022,t97609,EX FWD,25550,FWD,https://www.cargurus.com/research/2022-Honda-Civic-c31355,2026-10-23T21:43:31.385764+00:00
+Honda,Civic,2022,t97608,Sport FWD,23950,FWD,https://www.cargurus.com/research/2022-Honda-Civic-c31355,2026-10-23T21:43:31.385764+00:00
+Honda,Civic,2022,t97607,Touring FWD,29150,FWD,https://www.cargurus.com/research/2022-Honda-Civic-c31355,2026-10-23T21:43:31.385764+00:00
+Honda,Civic,2022,t100391,Si with Summer Tires FWD,27700,FWD,https://www.cargurus.com/research/2022-Honda-Civic-c31355,2026-10-23T21:43:31.385764+00:00
+Honda,Civic,2022,t100390,Si FWD,27500,FWD,https://www.cargurus.com/research/2022-Honda-Civic-c31355,2026-10-23T21:43:31.385764+00:00
+Honda,Civic,2022,t97610,LX FWD,22550,FWD,https://www.cargurus.com/research/2022-Honda-Civic-c31355,2026-10-23T21:43:31.385764+00:00
+Honda,Civic,2021,t95062,Sport FWD,23050,FWD,https://www.cargurus.com/research/2021-Honda-Civic-c30952,2026-10-23T21:43:33.441536+00:00
+Honda,Civic,2021,t95063,LX FWD,21250,FWD,https://www.cargurus.com/research/2021-Honda-Civic-c30952,2026-10-23T21:43:33.441536+00:00
+Honda,Civic,2021,t95061,EX FWD,24400,FWD,https://www.cargurus.com/research/2021-Honda-Civic-c30952,2026-10-23T21:43:33.441536+00:00
+Honda,Civic,2021,t95114,EX-L FWD,25600,FWD,https://www.cargurus.com/research/2021-Honda-Civic-c30952,2026-10-23T21:43:33.441536+00:00
+Honda,Civic,2021,t95115,Touring FWD,28300,FWD,https://www.cargurus.com/research/2021-Honda-Civic-c30952,2026-10-23T21:43:33.441536+00:00
+Honda,Civic,2020,t89645,Type R Touring Hatchback FWD,36995,FWD,https://www.cargurus.com/research/2020-Honda-Civic-c29665,2026-10-23T21:43:35.094586+00:00
+Honda,Civic,2020,t89643,Sport Touring Hatchback FWD,28050,,https://www.cargurus.com/research/2020-Honda-Civic-c29665,2026-10-23T21:43:35.094586+00:00
+Honda,Civic,2020,t89633,EX Coupe FWD,23600,FWD,https://www.cargurus.com/research/2020-Honda-Civic-c29665,2026-10-23T21:43:35.094586+00:00
+Honda,Civic,2020,t89644,Touring Coupe FWD,27250,FWD,https://www.cargurus.com/research/2020-Honda-Civic-c29665,2026-10-23T21:43:35.094586+00:00
+Honda,Civic,2020,t89318,Touring Sedan FWD,27850,FWD,https://www.cargurus.com/research/2020-Honda-Civic-c29665,2026-10-23T21:43:35.094586+00:00
+Honda,Civic,2020,t89638,Si Coupe FWD,25200,FWD,https://www.cargurus.com/research/2020-Honda-Civic-c29665,2026-10-23T21:43:35.094586+00:00
+Honda,Civic,2020,t89639,Si Sedan FWD with Summer Tires,25400,FWD,https://www.cargurus.com/research/2020-Honda-Civic-c29665,2026-10-23T21:43:35.094586+00:00
+Honda,Civic,2020,t89636,LX Coupe FWD,21050,FWD,https://www.cargurus.com/research/2020-Honda-Civic-c29665,2026-10-23T21:43:35.094586+00:00
+Honda,Civic,2020,t89637,Si Sedan FWD,25200,FWD,https://www.cargurus.com/research/2020-Honda-Civic-c29665,2026-10-23T21:43:35.094586+00:00
+Honda,Civic,2020,t88290,EX-L Sedan FWD,25150,FWD,https://www.cargurus.com/research/2020-Honda-Civic-c29665,2026-10-23T21:43:35.094586+00:00
+Honda,Civic,2020,t88291,Sport Sedan FWD,21800,FWD,https://www.cargurus.com/research/2020-Honda-Civic-c29665,2026-10-23T21:43:35.094586+00:00
+Honda,Civic,2020,t88293,LX Sedan FWD,20000,FWD,https://www.cargurus.com/research/2020-Honda-Civic-c29665,2026-10-23T21:43:35.094586+00:00
+Honda,Civic,2020,t89641,Sport Coupe FWD,21850,FWD,https://www.cargurus.com/research/2020-Honda-Civic-c29665,2026-10-23T21:43:35.094586+00:00
+Honda,Civic,2020,t89642,Sport Hatchback FWD,22750,,https://www.cargurus.com/research/2020-Honda-Civic-c29665,2026-10-23T21:43:35.094586+00:00
+Honda,Civic,2020,t88289,EX Sedan FWD,23950,FWD,https://www.cargurus.com/research/2020-Honda-Civic-c29665,2026-10-23T21:43:35.094586+00:00
+Honda,Civic,2020,t89640,Si Coupe FWD with Summer Tires,25400,FWD,https://www.cargurus.com/research/2020-Honda-Civic-c29665,2026-10-23T21:43:35.094586+00:00
+Honda,Civic,2019,t83959,Sport FWD,26995,,https://www.cargurus.com/research/2019-Honda-Civic-c28664,2026-10-23T21:43:36.504500+00:00
+Honda,Civic,2019,t83958,Touring FWD,30550,FWD,https://www.cargurus.com/research/2019-Honda-Civic-c28664,2026-10-23T21:43:36.504500+00:00
+Honda,Civic,2019,t83957,LX FWD,24995,,https://www.cargurus.com/research/2019-Honda-Civic-c28664,2026-10-23T21:43:36.504500+00:00
+Honda,Civic,2019,t83956,EX-L FWD,25600,FWD,https://www.cargurus.com/research/2019-Honda-Civic-c28664,2026-10-23T21:43:36.504500+00:00
+Honda,Civic,2019,t83955,EX FWD,26950,FWD,https://www.cargurus.com/research/2019-Honda-Civic-c28664,2026-10-23T21:43:36.504500+00:00
+Honda,Civic,2019,t84146,Si FWD with Summer Tires,24300,FWD,https://www.cargurus.com/research/2019-Honda-Civic-c28664,2026-10-23T21:43:36.504500+00:00
+Honda,Civic,2019,t84145,Si FWD,31495,FWD,https://www.cargurus.com/research/2019-Honda-Civic-c28664,2026-10-23T21:43:36.504500+00:00
+Honda,Civic,2018,t76401,EX with Honda Sensing,22340,FWD,https://www.cargurus.com/research/2018-Honda-Civic-c27153,2026-10-23T21:43:38.102224+00:00
+Honda,Civic,2018,t76402,EX-L,24000,FWD,https://www.cargurus.com/research/2018-Honda-Civic-c27153,2026-10-23T21:43:38.102224+00:00
+Honda,Civic,2018,t76410,Si with Summer Tires,24300,FWD,https://www.cargurus.com/research/2018-Honda-Civic-c27153,2026-10-23T21:43:38.102224+00:00
+Honda,Civic,2018,t76400,EX,21340,FWD,https://www.cargurus.com/research/2018-Honda-Civic-c27153,2026-10-23T21:43:38.102224+00:00
+Honda,Civic,2018,t76411,Touring,26800,FWD,https://www.cargurus.com/research/2018-Honda-Civic-c27153,2026-10-23T21:43:38.102224+00:00
+Honda,Civic,2018,t76405,EX-T,21700,FWD,https://www.cargurus.com/research/2018-Honda-Civic-c27153,2026-10-23T21:43:38.102224+00:00
+Honda,Civic,2018,t76406,EX-T with Honda Sensing,23500,FWD,https://www.cargurus.com/research/2018-Honda-Civic-c27153,2026-10-23T21:43:38.102224+00:00
+Honda,Civic,2018,t76403,EX-L with Honda Sensing,25000,FWD,https://www.cargurus.com/research/2018-Honda-Civic-c27153,2026-10-23T21:43:38.102224+00:00
+Honda,Civic,2018,t76404,EX-L with Navigation,25000,FWD,https://www.cargurus.com/research/2018-Honda-Civic-c27153,2026-10-23T21:43:38.102224+00:00
+Honda,Civic,2018,t76409,Si,24100,FWD,https://www.cargurus.com/research/2018-Honda-Civic-c27153,2026-10-23T21:43:38.102224+00:00
+Honda,Civic,2018,t76407,LX,18940,FWD,https://www.cargurus.com/research/2018-Honda-Civic-c27153,2026-10-23T21:43:38.102224+00:00
+Honda,Civic,2018,t76408,LX with Honda Sensing,20740,FWD,https://www.cargurus.com/research/2018-Honda-Civic-c27153,2026-10-23T21:43:38.102224+00:00
+Honda,Civic,2017,t69381,Touring,26600,FWD,https://www.cargurus.com/research/2017-Honda-Civic-c26150,2026-10-23T21:43:39.620169+00:00
+Honda,Civic,2017,t74024,Si with Summer Tires,24100,FWD,https://www.cargurus.com/research/2017-Honda-Civic-c26150,2026-10-23T21:43:39.620169+00:00
+Honda,Civic,2017,t69380,LX with Honda Sensing,20540,FWD,https://www.cargurus.com/research/2017-Honda-Civic-c26150,2026-10-23T21:43:39.620169+00:00
+Honda,Civic,2017,t74023,Si,23900,FWD,https://www.cargurus.com/research/2017-Honda-Civic-c26150,2026-10-23T21:43:39.620169+00:00
+Honda,Civic,2017,t69372,EX,21140,FWD,https://www.cargurus.com/research/2017-Honda-Civic-c26150,2026-10-23T21:43:39.620169+00:00
+Honda,Civic,2017,t69378,EX-T with Honda Sensing,23300,FWD,https://www.cargurus.com/research/2017-Honda-Civic-c26150,2026-10-23T21:43:39.620169+00:00
+Honda,Civic,2017,t69377,EX-T,21500,FWD,https://www.cargurus.com/research/2017-Honda-Civic-c26150,2026-10-23T21:43:39.620169+00:00
+Honda,Civic,2017,t69379,LX,18740,FWD,https://www.cargurus.com/research/2017-Honda-Civic-c26150,2026-10-23T21:43:39.620169+00:00
+Honda,Civic,2017,t69374,EX-L,23800,FWD,https://www.cargurus.com/research/2017-Honda-Civic-c26150,2026-10-23T21:43:39.620169+00:00
+Honda,Civic,2017,t69373,EX with Honda Sensing,22140,FWD,https://www.cargurus.com/research/2017-Honda-Civic-c26150,2026-10-23T21:43:39.620169+00:00
+Honda,Civic,2017,t69376,EX-L with Navigation,24800,FWD,https://www.cargurus.com/research/2017-Honda-Civic-c26150,2026-10-23T21:43:39.620169+00:00
+Honda,Civic,2017,t69375,EX-L with Honda Sensing,24800,FWD,https://www.cargurus.com/research/2017-Honda-Civic-c26150,2026-10-23T21:43:39.620169+00:00
+Honda,Civic,2016,t59738,Touring,26500,FWD,https://www.cargurus.com/research/2016-Honda-Civic-c25209,2026-10-23T21:43:41.488540+00:00
+Honda,Civic,2016,t59737,EX-L with Honda Sensing,24700,FWD,https://www.cargurus.com/research/2016-Honda-Civic-c25209,2026-10-23T21:43:41.488540+00:00
+Honda,Civic,2016,t59736,EX-L,23700,FWD,https://www.cargurus.com/research/2016-Honda-Civic-c25209,2026-10-23T21:43:41.488540+00:00
+Honda,Civic,2016,t59735,EX with Honda Sensing,22040,FWD,https://www.cargurus.com/research/2016-Honda-Civic-c25209,2026-10-23T21:43:41.488540+00:00
+Honda,Civic,2016,t60456,EX-T,22200,FWD,https://www.cargurus.com/research/2016-Honda-Civic-c25209,2026-10-23T21:43:41.488540+00:00
+Honda,Civic,2016,t59734,EX,21040,FWD,https://www.cargurus.com/research/2016-Honda-Civic-c25209,2026-10-23T21:43:41.488540+00:00
+Honda,Civic,2016,t59733,LX with Honda Sensing,20440,FWD,https://www.cargurus.com/research/2016-Honda-Civic-c25209,2026-10-23T21:43:41.488540+00:00
+Honda,Civic,2016,t59732,LX,18640,FWD,https://www.cargurus.com/research/2016-Honda-Civic-c25209,2026-10-23T21:43:41.488540+00:00
+Honda,Civic,2016,t60457,EX-T with Honda Sensing,23200,FWD,https://www.cargurus.com/research/2016-Honda-Civic-c25209,2026-10-23T21:43:41.488540+00:00
+Honda,Civic,2016,t59752,EX-L with Navigation,24700,FWD,https://www.cargurus.com/research/2016-Honda-Civic-c25209,2026-10-23T21:43:41.488540+00:00
+Honda,Civic,2015,t56858,SE,19990,FWD,https://www.cargurus.com/research/2015-Honda-Civic-c24667,2026-10-23T21:43:43.031239+00:00
+Honda,Civic,2015,t57051,Si with Navi,24590,FWD,https://www.cargurus.com/research/2015-Honda-Civic-c24667,2026-10-23T21:43:43.031239+00:00
+Honda,Civic,2015,t56859,HF,20040,FWD,https://www.cargurus.com/research/2015-Honda-Civic-c24667,2026-10-23T21:43:43.031239+00:00
+Honda,Civic,2015,t56857,LX,18490,FWD,https://www.cargurus.com/research/2015-Honda-Civic-c24667,2026-10-23T21:43:43.031239+00:00
+Honda,Civic,2015,t57050,Si with Summer Tires,23290,FWD,https://www.cargurus.com/research/2015-Honda-Civic-c24667,2026-10-23T21:43:43.031239+00:00
+Honda,Civic,2015,t56861,EX-L,22840,FWD,https://www.cargurus.com/research/2015-Honda-Civic-c24667,2026-10-23T21:43:43.031239+00:00
+Honda,Civic,2015,t57246,Natural Gas,26740,FWD,https://www.cargurus.com/research/2015-Honda-Civic-c24667,2026-10-23T21:43:43.031239+00:00
+Honda,Civic,2015,t56862,EX,21190,FWD,https://www.cargurus.com/research/2015-Honda-Civic-c24667,2026-10-23T21:43:43.031239+00:00
+Honda,Civic,2015,t57049,Si,23090,FWD,https://www.cargurus.com/research/2015-Honda-Civic-c24667,2026-10-23T21:43:43.031239+00:00
+Honda,Civic,2015,t56860,EX-L with Navigation,24340,FWD,https://www.cargurus.com/research/2015-Honda-Civic-c24667,2026-10-23T21:43:43.031239+00:00
+Honda,Civic,2015,t57245,Natural Gas with Navigation,29390,FWD,https://www.cargurus.com/research/2015-Honda-Civic-c24667,2026-10-23T21:43:43.031239+00:00
+Honda,CR-V,2025,t112405,Fuel Cell Touring FWD,50000,,https://www.cargurus.com/research/2025-Honda-CR-V-c33413,2026-10-23T21:43:44.527129+00:00
+Honda,CR-V,2025,t110711,EX FWD,32350,FWD,https://www.cargurus.com/research/2025-Honda-CR-V-c33413,2026-10-23T21:43:44.527129+00:00
+Honda,CR-V,2025,t110710,EX AWD,33850,AWD,https://www.cargurus.com/research/2025-Honda-CR-V-c33413,2026-10-23T21:43:44.527129+00:00
+Honda,CR-V,2025,t110713,LX FWD,30100,FWD,https://www.cargurus.com/research/2025-Honda-CR-V-c33413,2026-10-23T21:43:44.527129+00:00
+Honda,CR-V,2025,t110712,LX AWD,31600,AWD,https://www.cargurus.com/research/2025-Honda-CR-V-c33413,2026-10-23T21:43:44.527129+00:00
+Honda,CR-V,2025,t110715,EX-L FWD,35000,FWD,https://www.cargurus.com/research/2025-Honda-CR-V-c33413,2026-10-23T21:43:44.527129+00:00
+Honda,CR-V,2025,t110714,EX-L AWD,36500,AWD,https://www.cargurus.com/research/2025-Honda-CR-V-c33413,2026-10-23T21:43:44.527129+00:00
+Honda,CR-V,2024,t107882,EX FWD,32010,FWD,https://www.cargurus.com/research/2024-Honda-CR-V-c33017,2026-10-23T21:43:47.645625+00:00
+Honda,CR-V,2024,t107883,EX-L AWD,36160,AWD,https://www.cargurus.com/research/2024-Honda-CR-V-c33017,2026-10-23T21:43:47.645625+00:00
+Honda,CR-V,2024,t107880,LX FWD,29500,FWD,https://www.cargurus.com/research/2024-Honda-CR-V-c33017,2026-10-23T21:43:47.645625+00:00
+Honda,CR-V,2024,t107881,EX AWD,33510,AWD,https://www.cargurus.com/research/2024-Honda-CR-V-c33017,2026-10-23T21:43:47.645625+00:00
+Honda,CR-V,2024,t107879,LX AWD,31000,AWD,https://www.cargurus.com/research/2024-Honda-CR-V-c33017,2026-10-23T21:43:47.645625+00:00
+Honda,CR-V,2024,t107884,EX-L FWD,34660,FWD,https://www.cargurus.com/research/2024-Honda-CR-V-c33017,2026-10-23T21:43:47.645625+00:00
+Honda,CR-V,2023,t106595,EX-L AWD w/o BSI,35210,AWD,https://www.cargurus.com/research/2023-Honda-CR-V-c32305,2026-10-23T21:43:48.916540+00:00
+Honda,CR-V,2023,t106596,EX FWD w/o BSI,31060,FWD,https://www.cargurus.com/research/2023-Honda-CR-V-c32305,2026-10-23T21:43:48.916540+00:00
+Honda,CR-V,2023,t104132,EX-L FWD,34260,FWD,https://www.cargurus.com/research/2023-Honda-CR-V-c32305,2026-10-23T21:43:48.916540+00:00
+Honda,CR-V,2023,t104131,EX-L AWD,35760,AWD,https://www.cargurus.com/research/2023-Honda-CR-V-c32305,2026-10-23T21:43:48.916540+00:00
+Honda,CR-V,2023,t105479,LX FWD,28410,FWD,https://www.cargurus.com/research/2023-Honda-CR-V-c32305,2026-10-23T21:43:48.916540+00:00
+Honda,CR-V,2023,t104134,EX FWD,31610,FWD,https://www.cargurus.com/research/2023-Honda-CR-V-c32305,2026-10-23T21:43:48.916540+00:00
+Honda,CR-V,2023,t104133,EX AWD,33110,AWD,https://www.cargurus.com/research/2023-Honda-CR-V-c32305,2026-10-23T21:43:48.916540+00:00
+Honda,CR-V,2023,t105478,LX AWD,29910,AWD,https://www.cargurus.com/research/2023-Honda-CR-V-c32305,2026-10-23T21:43:48.916540+00:00
+Honda,CR-V,2023,t106597,EX AWD w/o BSI,32560,AWD,https://www.cargurus.com/research/2023-Honda-CR-V-c32305,2026-10-23T21:43:48.916540+00:00
+Honda,CR-V,2023,t106598,EX-L FWD w/o BSI,33710,FWD,https://www.cargurus.com/research/2023-Honda-CR-V-c32305,2026-10-23T21:43:48.916540+00:00
+Honda,CR-V,2022,t98729,SE FWD,28000,FWD,https://www.cargurus.com/research/2022-Honda-CR-V-c31954,2026-10-23T21:43:51.128495+00:00
+Honda,CR-V,2022,t98728,SE AWD,29500,AWD,https://www.cargurus.com/research/2022-Honda-CR-V-c31954,2026-10-23T21:43:51.128495+00:00
+Honda,CR-V,2022,t98727,LX FWD,26800,FWD,https://www.cargurus.com/research/2022-Honda-CR-V-c31954,2026-10-23T21:43:51.128495+00:00
+Honda,CR-V,2022,t98726,LX AWD,28300,AWD,https://www.cargurus.com/research/2022-Honda-CR-V-c31954,2026-10-23T21:43:51.128495+00:00
+Honda,CR-V,2022,t98725,Touring AWD,36600,AWD,https://www.cargurus.com/research/2022-Honda-CR-V-c31954,2026-10-23T21:43:51.128495+00:00
+Honda,CR-V,2022,t98724,EX-L FWD,31900,FWD,https://www.cargurus.com/research/2022-Honda-CR-V-c31954,2026-10-23T21:43:51.128495+00:00
+Honda,CR-V,2022,t98723,EX-L AWD,33400,AWD,https://www.cargurus.com/research/2022-Honda-CR-V-c31954,2026-10-23T21:43:51.128495+00:00
+Honda,CR-V,2022,t98722,EX FWD,29310,FWD,https://www.cargurus.com/research/2022-Honda-CR-V-c31954,2026-10-23T21:43:51.128495+00:00
+Honda,CR-V,2022,t98721,EX AWD,30810,AWD,https://www.cargurus.com/research/2022-Honda-CR-V-c31954,2026-10-23T21:43:51.128495+00:00
+Honda,CR-V,2021,t98032,SE AWD,28050,AWD,https://www.cargurus.com/research/2021-Honda-CR-V-c31010,2026-10-23T21:43:53.488937+00:00
+Honda,CR-V,2021,t95758,LX FWD,25350,FWD,https://www.cargurus.com/research/2021-Honda-CR-V-c31010,2026-10-23T21:43:53.488937+00:00
+Honda,CR-V,2021,t98031,SE FWD,26550,FWD,https://www.cargurus.com/research/2021-Honda-CR-V-c31010,2026-10-23T21:43:53.488937+00:00
+Honda,CR-V,2021,t95759,Touring AWD,35150,AWD,https://www.cargurus.com/research/2021-Honda-CR-V-c31010,2026-10-23T21:43:53.488937+00:00
+Honda,CR-V,2021,t95756,EX-L FWD,30450,FWD,https://www.cargurus.com/research/2021-Honda-CR-V-c31010,2026-10-23T21:43:53.488937+00:00
+Honda,CR-V,2021,t95757,LX AWD,26850,AWD,https://www.cargurus.com/research/2021-Honda-CR-V-c31010,2026-10-23T21:43:53.488937+00:00
+Honda,CR-V,2021,t95754,EX FWD,27860,FWD,https://www.cargurus.com/research/2021-Honda-CR-V-c31010,2026-10-23T21:43:53.488937+00:00
+Honda,CR-V,2021,t95755,EX-L AWD,31950,AWD,https://www.cargurus.com/research/2021-Honda-CR-V-c31010,2026-10-23T21:43:53.488937+00:00
+Honda,CR-V,2021,t95753,EX AWD,29360,AWD,https://www.cargurus.com/research/2021-Honda-CR-V-c31010,2026-10-23T21:43:53.488937+00:00
+Honda,CR-V,2021,t95760,Touring FWD,33650,FWD,https://www.cargurus.com/research/2021-Honda-CR-V-c31010,2026-10-23T21:43:53.488937+00:00
+Honda,CR-V,2020,t89601,LX AWD,26650,AWD,https://www.cargurus.com/research/2020-Honda-CR-V-c29759,2026-10-23T21:43:54.972485+00:00
+Honda,CR-V,2020,t89602,LX FWD,25150,FWD,https://www.cargurus.com/research/2020-Honda-CR-V-c29759,2026-10-23T21:43:54.972485+00:00
+Honda,CR-V,2020,t89599,EX-L AWD,31650,AWD,https://www.cargurus.com/research/2020-Honda-CR-V-c29759,2026-10-23T21:43:54.972485+00:00
+Honda,CR-V,2020,t89600,EX-L FWD,30150,FWD,https://www.cargurus.com/research/2020-Honda-CR-V-c29759,2026-10-23T21:43:54.972485+00:00
+Honda,CR-V,2020,t89603,Touring AWD,34850,AWD,https://www.cargurus.com/research/2020-Honda-CR-V-c29759,2026-10-23T21:43:54.972485+00:00
+Honda,CR-V,2020,t89604,Touring FWD,33350,FWD,https://www.cargurus.com/research/2020-Honda-CR-V-c29759,2026-10-23T21:43:54.972485+00:00
+Honda,CR-V,2020,t89597,EX AWD,29160,AWD,https://www.cargurus.com/research/2020-Honda-CR-V-c29759,2026-10-23T21:43:54.972485+00:00
+Honda,CR-V,2020,t89598,EX FWD,27660,FWD,https://www.cargurus.com/research/2020-Honda-CR-V-c29759,2026-10-23T21:43:54.972485+00:00
+Honda,CR-V,2019,t84285,EX-L FWD,29850,FWD,https://www.cargurus.com/research/2019-Honda-CR-V-c28911,2026-10-23T21:43:57.245933+00:00
+Honda,CR-V,2019,t84284,EX AWD,28750,AWD,https://www.cargurus.com/research/2019-Honda-CR-V-c28911,2026-10-23T21:43:57.245933+00:00
+Honda,CR-V,2019,t84283,EX FWD,27350,FWD,https://www.cargurus.com/research/2019-Honda-CR-V-c28911,2026-10-23T21:43:57.245933+00:00
+Honda,CR-V,2019,t84282,EX-L AWD,31250,AWD,https://www.cargurus.com/research/2019-Honda-CR-V-c28911,2026-10-23T21:43:57.245933+00:00
+Honda,CR-V,2019,t84281,Touring AWD,34250,AWD,https://www.cargurus.com/research/2019-Honda-CR-V-c28911,2026-10-23T21:43:57.245933+00:00
+Honda,CR-V,2019,t84280,LX FWD,24450,FWD,https://www.cargurus.com/research/2019-Honda-CR-V-c28911,2026-10-23T21:43:57.245933+00:00
+Honda,CR-V,2019,t84279,LX AWD,25850,AWD,https://www.cargurus.com/research/2019-Honda-CR-V-c28911,2026-10-23T21:43:57.245933+00:00
+Honda,CR-V,2019,t84286,Touring FWD,32850,FWD,https://www.cargurus.com/research/2019-Honda-CR-V-c28911,2026-10-23T21:43:57.245933+00:00
+Honda,CR-V,2018,t76544,EX FWD,27050,FWD,https://www.cargurus.com/research/2018-Honda-CR-V-c27243,2026-10-23T21:43:59.244610+00:00
+Honda,CR-V,2018,t76545,EX-L AWD,30950,AWD,https://www.cargurus.com/research/2018-Honda-CR-V-c27243,2026-10-23T21:43:59.244610+00:00
+Honda,CR-V,2018,t76543,EX AWD,28450,AWD,https://www.cargurus.com/research/2018-Honda-CR-V-c27243,2026-10-23T21:43:59.244610+00:00
+Honda,CR-V,2018,t76548,Touring AWD,34150,AWD,https://www.cargurus.com/research/2018-Honda-CR-V-c27243,2026-10-23T21:43:59.244610+00:00
+Honda,CR-V,2018,t76549,EX-L FWD,29550,FWD,https://www.cargurus.com/research/2018-Honda-CR-V-c27243,2026-10-23T21:43:59.244610+00:00
+Honda,CR-V,2018,t76546,EX-L AWD with Navigation,31950,AWD,https://www.cargurus.com/research/2018-Honda-CR-V-c27243,2026-10-23T21:43:59.244610+00:00
+Honda,CR-V,2018,t76547,LX AWD,25650,AWD,https://www.cargurus.com/research/2018-Honda-CR-V-c27243,2026-10-23T21:43:59.244610+00:00
+Honda,CR-V,2018,t76551,LX FWD,24250,FWD,https://www.cargurus.com/research/2018-Honda-CR-V-c27243,2026-10-23T21:43:59.244610+00:00
+Honda,CR-V,2018,t76552,Touring FWD,32750,FWD,https://www.cargurus.com/research/2018-Honda-CR-V-c27243,2026-10-23T21:43:59.244610+00:00
+Honda,CR-V,2018,t76550,EX-L FWD with Navigation,30550,FWD,https://www.cargurus.com/research/2018-Honda-CR-V-c27243,2026-10-23T21:43:59.244610+00:00
+Honda,CR-V,2017,t72373,Touring AWD,33795,AWD,https://www.cargurus.com/research/2017-Honda-CR-V-c26423,2026-10-23T21:44:01.196665+00:00
+Honda,CR-V,2017,t72374,EX-L FWD,29295,FWD,https://www.cargurus.com/research/2017-Honda-CR-V-c26423,2026-10-23T21:44:01.196665+00:00
+Honda,CR-V,2017,t72375,EX-L AWD,30595,AWD,https://www.cargurus.com/research/2017-Honda-CR-V-c26423,2026-10-23T21:44:01.196665+00:00
+Honda,CR-V,2017,t72376,EX-L FWD with Navigation,30295,FWD,https://www.cargurus.com/research/2017-Honda-CR-V-c26423,2026-10-23T21:44:01.196665+00:00
+Honda,CR-V,2017,t72377,EX-L AWD with Navigation,31595,AWD,https://www.cargurus.com/research/2017-Honda-CR-V-c26423,2026-10-23T21:44:01.196665+00:00
+Honda,CR-V,2017,t72368,EX FWD,26795,FWD,https://www.cargurus.com/research/2017-Honda-CR-V-c26423,2026-10-23T21:44:01.196665+00:00
+Honda,CR-V,2017,t72369,EX AWD,28095,AWD,https://www.cargurus.com/research/2017-Honda-CR-V-c26423,2026-10-23T21:44:01.196665+00:00
+Honda,CR-V,2017,t72370,LX FWD,24045,FWD,https://www.cargurus.com/research/2017-Honda-CR-V-c26423,2026-10-23T21:44:01.196665+00:00
+Honda,CR-V,2017,t72371,LX AWD,25345,AWD,https://www.cargurus.com/research/2017-Honda-CR-V-c26423,2026-10-23T21:44:01.196665+00:00
+Honda,CR-V,2017,t72372,Touring FWD,32495,FWD,https://www.cargurus.com/research/2017-Honda-CR-V-c26423,2026-10-23T21:44:01.196665+00:00
+Honda,CR-V,2016,t60461,EX FWD,26095,FWD,https://www.cargurus.com/research/2016-Honda-CR-V-c25316,2026-10-23T21:44:02.841381+00:00
+Honda,CR-V,2016,t60460,LX AWD,25145,AWD,https://www.cargurus.com/research/2016-Honda-CR-V-c25316,2026-10-23T21:44:02.841381+00:00
+Honda,CR-V,2016,t60463,EX-L FWD,28545,FWD,https://www.cargurus.com/research/2016-Honda-CR-V-c25316,2026-10-23T21:44:02.841381+00:00
+Honda,CR-V,2016,t60462,SE AWD,25945,AWD,https://www.cargurus.com/research/2016-Honda-CR-V-c25316,2026-10-23T21:44:02.841381+00:00
+Honda,CR-V,2016,t60465,EX-L AWD,29845,AWD,https://www.cargurus.com/research/2016-Honda-CR-V-c25316,2026-10-23T21:44:02.841381+00:00
+Honda,CR-V,2016,t60464,EX AWD,27395,AWD,https://www.cargurus.com/research/2016-Honda-CR-V-c25316,2026-10-23T21:44:02.841381+00:00
+Honda,CR-V,2016,t60467,Touring FWD,32195,FWD,https://www.cargurus.com/research/2016-Honda-CR-V-c25316,2026-10-23T21:44:02.841381+00:00
+Honda,CR-V,2016,t60466,Touring AWD,33495,AWD,https://www.cargurus.com/research/2016-Honda-CR-V-c25316,2026-10-23T21:44:02.841381+00:00
+Honda,CR-V,2016,t60458,LX FWD,23845,FWD,https://www.cargurus.com/research/2016-Honda-CR-V-c25316,2026-10-23T21:44:02.841381+00:00
+Honda,CR-V,2016,t60744,EX-L FWD with Navigation,30045,FWD,https://www.cargurus.com/research/2016-Honda-CR-V-c25316,2026-10-23T21:44:02.841381+00:00
+Honda,CR-V,2016,t60459,SE FWD,24645,FWD,https://www.cargurus.com/research/2016-Honda-CR-V-c25316,2026-10-23T21:44:02.841381+00:00
+Honda,CR-V,2016,t60745,EX-L AWD with Navigation,31345,AWD,https://www.cargurus.com/research/2016-Honda-CR-V-c25316,2026-10-23T21:44:02.841381+00:00
+Honda,CR-V,2015,t56913,EX-L FWD,28145,FWD,https://www.cargurus.com/research/2015-Honda-CR-V-c24684,2026-10-23T21:44:05.436063+00:00
+Honda,CR-V,2015,t56914,EX AWD,26795,AWD,https://www.cargurus.com/research/2015-Honda-CR-V-c24684,2026-10-23T21:44:05.436063+00:00
+Honda,CR-V,2015,t56911,EX-L AWD with Navigation,30895,AWD,https://www.cargurus.com/research/2015-Honda-CR-V-c24684,2026-10-23T21:44:05.436063+00:00
+Honda,CR-V,2015,t56912,EX-L AWD,29395,AWD,https://www.cargurus.com/research/2015-Honda-CR-V-c24684,2026-10-23T21:44:05.436063+00:00
+Honda,CR-V,2015,t56910,EX-L FWD with Navigation,29645,FWD,https://www.cargurus.com/research/2015-Honda-CR-V-c24684,2026-10-23T21:44:05.436063+00:00
+Honda,CR-V,2015,t56908,Touring FWD,31645,FWD,https://www.cargurus.com/research/2015-Honda-CR-V-c24684,2026-10-23T21:44:05.436063+00:00
+Honda,CR-V,2015,t56909,Touring AWD,32895,AWD,https://www.cargurus.com/research/2015-Honda-CR-V-c24684,2026-10-23T21:44:05.436063+00:00
+Honda,CR-V,2015,t56917,LX AWD,24695,AWD,https://www.cargurus.com/research/2015-Honda-CR-V-c24684,2026-10-23T21:44:05.436063+00:00
+Honda,CR-V,2015,t56915,EX FWD,25545,FWD,https://www.cargurus.com/research/2015-Honda-CR-V-c24684,2026-10-23T21:44:05.436063+00:00
+Honda,CR-V,2015,t56916,LX FWD,23445,FWD,https://www.cargurus.com/research/2015-Honda-CR-V-c24684,2026-10-23T21:44:05.436063+00:00
+Ford,Fusion,2020,t86413,S FWD,23170,FWD,https://www.cargurus.com/research/2020-Ford-Fusion-c29271,2026-10-23T21:44:07.850745+00:00
+Ford,Fusion,2020,t86414,SE FWD,24500,FWD,https://www.cargurus.com/research/2020-Ford-Fusion-c29271,2026-10-23T21:44:07.850745+00:00
+Ford,Fusion,2020,t86415,SE AWD,27885,AWD,https://www.cargurus.com/research/2020-Ford-Fusion-c29271,2026-10-23T21:44:07.850745+00:00
+Ford,Fusion,2020,t86416,SEL FWD,28690,FWD,https://www.cargurus.com/research/2020-Ford-Fusion-c29271,2026-10-23T21:44:07.850745+00:00
+Ford,Fusion,2020,t86417,Titanium AWD,36450,AWD,https://www.cargurus.com/research/2020-Ford-Fusion-c29271,2026-10-23T21:44:07.850745+00:00
+Ford,Fusion,2020,t86418,Titanium FWD,34450,FWD,https://www.cargurus.com/research/2020-Ford-Fusion-c29271,2026-10-23T21:44:07.850745+00:00
+Ford,Fusion,2019,t81779,V6 Sport AWD,40015,AWD,https://www.cargurus.com/research/2019-Ford-Fusion-c27657,2026-10-23T21:44:09.254025+00:00
+Ford,Fusion,2019,t81777,SEL AWD,32065,AWD,https://www.cargurus.com/research/2019-Ford-Fusion-c27657,2026-10-23T21:44:09.254025+00:00
+Ford,Fusion,2019,t81778,Titanium AWD,36340,AWD,https://www.cargurus.com/research/2019-Ford-Fusion-c27657,2026-10-23T21:44:09.254025+00:00
+Ford,Fusion,2019,t81776,SE AWD,27775,AWD,https://www.cargurus.com/research/2019-Ford-Fusion-c27657,2026-10-23T21:44:09.254025+00:00
+Ford,Fusion,2019,t81782,SEL,28580,FWD,https://www.cargurus.com/research/2019-Ford-Fusion-c27657,2026-10-23T21:44:09.254025+00:00
+Ford,Fusion,2019,t81783,Titanium,34340,FWD,https://www.cargurus.com/research/2019-Ford-Fusion-c27657,2026-10-23T21:44:09.254025+00:00
+Ford,Fusion,2019,t81780,S,22840,FWD,https://www.cargurus.com/research/2019-Ford-Fusion-c27657,2026-10-23T21:44:09.254025+00:00
+Ford,Fusion,2019,t81791,Taxi,29540,,https://www.cargurus.com/research/2019-Ford-Fusion-c27657,2026-10-23T21:44:09.254025+00:00
+Ford,Fusion,2019,t81781,SE,24120,FWD,https://www.cargurus.com/research/2019-Ford-Fusion-c27657,2026-10-23T21:44:09.254025+00:00
+Ford,Fusion,2018,t73843,Platinum AWD,38990,AWD,https://www.cargurus.com/research/2018-Ford-Fusion-c26799,2026-10-23T21:44:10.675340+00:00
+Ford,Fusion,2018,t73842,Platinum,36990,FWD,https://www.cargurus.com/research/2018-Ford-Fusion-c26799,2026-10-23T21:44:10.675340+00:00
+Ford,Fusion,2018,t73845,SE,23490,FWD,https://www.cargurus.com/research/2018-Ford-Fusion-c26799,2026-10-23T21:44:10.675340+00:00
+Ford,Fusion,2018,t73844,S,22215,FWD,https://www.cargurus.com/research/2018-Ford-Fusion-c26799,2026-10-23T21:44:10.675340+00:00
+Ford,Fusion,2018,t73847,Sport AWD,33845,AWD,https://www.cargurus.com/research/2018-Ford-Fusion-c26799,2026-10-23T21:44:10.675340+00:00
+Ford,Fusion,2018,t73846,SE AWD,27285,AWD,https://www.cargurus.com/research/2018-Ford-Fusion-c26799,2026-10-23T21:44:10.675340+00:00
+Ford,Fusion,2018,t73849,Titanium AWD,32490,AWD,https://www.cargurus.com/research/2018-Ford-Fusion-c26799,2026-10-23T21:44:10.675340+00:00
+Ford,Fusion,2018,t73848,Titanium,30490,FWD,https://www.cargurus.com/research/2018-Ford-Fusion-c26799,2026-10-23T21:44:10.675340+00:00
+Ford,Fusion,2017,t66966,S,22610,FWD,https://www.cargurus.com/research/2017-Ford-Fusion-c25781,2026-10-23T21:44:12.130710+00:00
+Ford,Fusion,2017,t66967,SE,23740,FWD,https://www.cargurus.com/research/2017-Ford-Fusion-c25781,2026-10-23T21:44:12.130710+00:00
+Ford,Fusion,2017,t66968,SE AWD,27535,AWD,https://www.cargurus.com/research/2017-Ford-Fusion-c25781,2026-10-23T21:44:12.130710+00:00
+Ford,Fusion,2017,t66972,Platinum AWD,38750,AWD,https://www.cargurus.com/research/2017-Ford-Fusion-c25781,2026-10-23T21:44:12.130710+00:00
+Ford,Fusion,2017,t66973,Platinum,36750,FWD,https://www.cargurus.com/research/2017-Ford-Fusion-c25781,2026-10-23T21:44:12.130710+00:00
+Ford,Fusion,2017,t66970,Titanium AWD,32740,AWD,https://www.cargurus.com/research/2017-Ford-Fusion-c25781,2026-10-23T21:44:12.130710+00:00
+Ford,Fusion,2017,t66971,Sport AWD,33605,AWD,https://www.cargurus.com/research/2017-Ford-Fusion-c25781,2026-10-23T21:44:12.130710+00:00
+Ford,Fusion,2017,t66969,Titanium,30740,FWD,https://www.cargurus.com/research/2017-Ford-Fusion-c25781,2026-10-23T21:44:12.130710+00:00
+Ford,Fusion,2016,t57569,SE,24320,FWD,https://www.cargurus.com/research/2016-Ford-Fusion-c24790,2026-10-23T21:44:13.536594+00:00
+Ford,Fusion,2016,t57567,Titanium,31270,FWD,https://www.cargurus.com/research/2016-Ford-Fusion-c24790,2026-10-23T21:44:13.536594+00:00
+Ford,Fusion,2016,t57568,SE AWD,28115,AWD,https://www.cargurus.com/research/2016-Ford-Fusion-c24790,2026-10-23T21:44:13.536594+00:00
+Ford,Fusion,2016,t57566,Titanium AWD,33270,AWD,https://www.cargurus.com/research/2016-Ford-Fusion-c24790,2026-10-23T21:44:13.536594+00:00
+Ford,Fusion,2016,t57570,S,22750,FWD,https://www.cargurus.com/research/2016-Ford-Fusion-c24790,2026-10-23T21:44:13.536594+00:00
+Ford,Fusion,2015,t55438,S,22500,FWD,https://www.cargurus.com/research/2015-Ford-Fusion-c24527,2026-10-23T21:44:15.146146+00:00
+Ford,Fusion,2015,t55437,Titanium,30780,FWD,https://www.cargurus.com/research/2015-Ford-Fusion-c24527,2026-10-23T21:44:15.146146+00:00
+Ford,Fusion,2015,t55436,SE,24035,FWD,https://www.cargurus.com/research/2015-Ford-Fusion-c24527,2026-10-23T21:44:15.146146+00:00
+Ford,Fusion,2015,t55441,Titanium AWD,32780,AWD,https://www.cargurus.com/research/2015-Ford-Fusion-c24527,2026-10-23T21:44:15.146146+00:00
+Ford,Fusion,2015,t55440,SE AWD,27830,AWD,https://www.cargurus.com/research/2015-Ford-Fusion-c24527,2026-10-23T21:44:15.146146+00:00
+Ford,Escape,2025,t111723,Platinum AWD,35910,AWD,https://www.cargurus.com/research/2025-Ford-Escape-c33570,2026-10-23T21:44:16.526036+00:00
+Ford,Escape,2025,t111725,ST-Line Elite AWD,36905,AWD,https://www.cargurus.com/research/2025-Ford-Escape-c33570,2026-10-23T21:44:16.526036+00:00
+Ford,Escape,2025,t111724,ST-Line AWD,31760,AWD,https://www.cargurus.com/research/2025-Ford-Escape-c33570,2026-10-23T21:44:16.526036+00:00
+Ford,Escape,2025,t111727,ST-Line Select AWD,33195,AWD,https://www.cargurus.com/research/2025-Ford-Escape-c33570,2026-10-23T21:44:16.526036+00:00
+Ford,Escape,2025,t111726,ST-Line FWD,30360,FWD,https://www.cargurus.com/research/2025-Ford-Escape-c33570,2026-10-23T21:44:16.526036+00:00
+Ford,Escape,2025,t111729,Active FWD,29515,FWD,https://www.cargurus.com/research/2025-Ford-Escape-c33570,2026-10-23T21:44:16.526036+00:00
+Ford,Escape,2025,t111728,Active AWD,30915,AWD,https://www.cargurus.com/research/2025-Ford-Escape-c33570,2026-10-23T21:44:16.526036+00:00
+Ford,Escape,2024,t109456,FWD,28000,FWD,https://www.cargurus.com/research/2024-Ford-Escape-c33133,2026-10-23T21:44:18.042788+00:00
+Ford,Escape,2024,t109455,AWD,29500,AWD,https://www.cargurus.com/research/2024-Ford-Escape-c33133,2026-10-23T21:44:18.042788+00:00
+Ford,Escape,2024,t109454,Active FWD,29495,FWD,https://www.cargurus.com/research/2024-Ford-Escape-c33133,2026-10-23T21:44:18.042788+00:00
+Ford,Escape,2024,t109453,ST-Line FWD,30490,FWD,https://www.cargurus.com/research/2024-Ford-Escape-c33133,2026-10-23T21:44:18.042788+00:00
+Ford,Escape,2024,t109452,ST-Line AWD,32660,AWD,https://www.cargurus.com/research/2024-Ford-Escape-c33133,2026-10-23T21:44:18.042788+00:00
+Ford,Escape,2024,t109451,Active AWD,31665,AWD,https://www.cargurus.com/research/2024-Ford-Escape-c33133,2026-10-23T21:44:18.042788+00:00
+Ford,Escape,2024,t109450,Platinum AWD,37465,AWD,https://www.cargurus.com/research/2024-Ford-Escape-c33133,2026-10-23T21:44:18.042788+00:00
+Ford,Escape,2024,t109458,ST-Line Select AWD,34040,AWD,https://www.cargurus.com/research/2024-Ford-Escape-c33133,2026-10-23T21:44:18.042788+00:00
+Ford,Escape,2024,t109457,ST-Line Elite AWD,38460,AWD,https://www.cargurus.com/research/2024-Ford-Escape-c33133,2026-10-23T21:44:18.042788+00:00
+Ford,Escape,2023,t104990,Platinum AWD,37940,AWD,https://www.cargurus.com/research/2023-Ford-Escape-c32584,2026-10-23T21:44:19.412038+00:00
+Ford,Escape,2023,t104989,ST-Line AWD,32595,AWD,https://www.cargurus.com/research/2023-Ford-Escape-c32584,2026-10-23T21:44:19.412038+00:00
+Ford,Escape,2023,t104988,ST-Line FWD,31195,FWD,https://www.cargurus.com/research/2023-Ford-Escape-c32584,2026-10-23T21:44:19.412038+00:00
+Ford,Escape,2023,t104985,FWD,28000,FWD,https://www.cargurus.com/research/2023-Ford-Escape-c32584,2026-10-23T21:44:19.412038+00:00
+Ford,Escape,2023,t104984,AWD,29500,AWD,https://www.cargurus.com/research/2023-Ford-Escape-c32584,2026-10-23T21:44:19.412038+00:00
+Ford,Escape,2023,t104987,Active AWD,31750,AWD,https://www.cargurus.com/research/2023-Ford-Escape-c32584,2026-10-23T21:44:19.412038+00:00
+Ford,Escape,2023,t104986,Active FWD,30350,FWD,https://www.cargurus.com/research/2023-Ford-Escape-c32584,2026-10-23T21:44:19.412038+00:00
+Ford,Escape,2023,t104992,ST-Line Elite AWD,38935,AWD,https://www.cargurus.com/research/2023-Ford-Escape-c32584,2026-10-23T21:44:19.412038+00:00
+Ford,Escape,2023,t104991,ST-Line Select AWD,35015,AWD,https://www.cargurus.com/research/2023-Ford-Escape-c32584,2026-10-23T21:44:19.412038+00:00
+Ford,Escape,2022,t100019,SEL AWD,32395,AWD,https://www.cargurus.com/research/2022-Ford-Escape-c32022,2026-10-23T21:44:21.018427+00:00
+Ford,Escape,2022,t100018,Titanium AWD,37305,AWD,https://www.cargurus.com/research/2022-Ford-Escape-c32022,2026-10-23T21:44:21.018427+00:00
+Ford,Escape,2022,t100017,S AWD,28685,AWD,https://www.cargurus.com/research/2022-Ford-Escape-c32022,2026-10-23T21:44:21.018427+00:00
+Ford,Escape,2022,t100016,S FWD,27185,FWD,https://www.cargurus.com/research/2022-Ford-Escape-c32022,2026-10-23T21:44:21.018427+00:00
+Ford,Escape,2022,t100022,SE FWD,28520,FWD,https://www.cargurus.com/research/2022-Ford-Escape-c32022,2026-10-23T21:44:21.018427+00:00
+Ford,Escape,2022,t100021,SE AWD,30020,AWD,https://www.cargurus.com/research/2022-Ford-Escape-c32022,2026-10-23T21:44:21.018427+00:00
+Ford,Escape,2022,t100020,SEL FWD,30895,FWD,https://www.cargurus.com/research/2022-Ford-Escape-c32022,2026-10-23T21:44:21.018427+00:00
+Ford,Escape,2021,t96150,SE FWD,27035,FWD,https://www.cargurus.com/research/2021-Ford-Escape-c31054,2026-10-23T21:44:22.324281+00:00
+Ford,Escape,2021,t96148,S FWD,25555,FWD,https://www.cargurus.com/research/2021-Ford-Escape-c31054,2026-10-23T21:44:22.324281+00:00
+Ford,Escape,2021,t96149,SE AWD,28535,AWD,https://www.cargurus.com/research/2021-Ford-Escape-c31054,2026-10-23T21:44:22.324281+00:00
+Ford,Escape,2021,t96146,Titanium AWD,36455,AWD,https://www.cargurus.com/research/2021-Ford-Escape-c31054,2026-10-23T21:44:22.324281+00:00
+Ford,Escape,2021,t96147,S AWD,27055,AWD,https://www.cargurus.com/research/2021-Ford-Escape-c31054,2026-10-23T21:44:22.324281+00:00
+Ford,Escape,2021,t96144,SEL AWD,31005,AWD,https://www.cargurus.com/research/2021-Ford-Escape-c31054,2026-10-23T21:44:22.324281+00:00
+Ford,Escape,2021,t96145,SEL FWD,29505,FWD,https://www.cargurus.com/research/2021-Ford-Escape-c31054,2026-10-23T21:44:22.324281+00:00
+Ford,Escape,2020,t86091,SE AWD,28605,AWD,https://www.cargurus.com/research/2020-Ford-Escape-c29169,2026-10-23T21:44:24.526034+00:00
+Ford,Escape,2020,t86092,SEL FWD,29265,FWD,https://www.cargurus.com/research/2020-Ford-Escape-c29169,2026-10-23T21:44:24.526034+00:00
+Ford,Escape,2020,t86093,S AWD,26385,AWD,https://www.cargurus.com/research/2020-Ford-Escape-c29169,2026-10-23T21:44:24.526034+00:00
+Ford,Escape,2020,t86094,SE FWD,27105,FWD,https://www.cargurus.com/research/2020-Ford-Escape-c29169,2026-10-23T21:44:24.526034+00:00
+Ford,Escape,2020,t86087,S FWD,24885,FWD,https://www.cargurus.com/research/2020-Ford-Escape-c29169,2026-10-23T21:44:24.526034+00:00
+Ford,Escape,2020,t86088,Titanium AWD,36835,AWD,https://www.cargurus.com/research/2020-Ford-Escape-c29169,2026-10-23T21:44:24.526034+00:00
+Ford,Escape,2020,t86089,SEL AWD,30765,AWD,https://www.cargurus.com/research/2020-Ford-Escape-c29169,2026-10-23T21:44:24.526034+00:00
+Ford,Escape,2019,t82958,Titanium FWD,32620,FWD,https://www.cargurus.com/research/2019-Ford-Escape-c28499,2026-10-23T21:44:25.943557+00:00
+Ford,Escape,2019,t82956,SE FWD,26500,FWD,https://www.cargurus.com/research/2019-Ford-Escape-c28499,2026-10-23T21:44:25.943557+00:00
+Ford,Escape,2019,t82957,SEL FWD,28445,FWD,https://www.cargurus.com/research/2019-Ford-Escape-c28499,2026-10-23T21:44:25.943557+00:00
+Ford,Escape,2019,t82954,Titanium AWD,34120,AWD,https://www.cargurus.com/research/2019-Ford-Escape-c28499,2026-10-23T21:44:25.943557+00:00
+Ford,Escape,2019,t82955,S FWD,24105,FWD,https://www.cargurus.com/research/2019-Ford-Escape-c28499,2026-10-23T21:44:25.943557+00:00
+Ford,Escape,2019,t82952,SE AWD,28000,AWD,https://www.cargurus.com/research/2019-Ford-Escape-c28499,2026-10-23T21:44:25.943557+00:00
+Ford,Escape,2019,t82953,SEL AWD,29945,AWD,https://www.cargurus.com/research/2019-Ford-Escape-c28499,2026-10-23T21:44:25.943557+00:00
+Ford,Escape,2018,t73870,SEL AWD,29450,AWD,https://www.cargurus.com/research/2018-Ford-Escape-c26803,2026-10-23T21:44:27.569222+00:00
+Ford,Escape,2018,t73872,Titanium AWD,33490,AWD,https://www.cargurus.com/research/2018-Ford-Escape-c26803,2026-10-23T21:44:27.569222+00:00
+Ford,Escape,2018,t73871,Titanium FWD,32140,FWD,https://www.cargurus.com/research/2018-Ford-Escape-c26803,2026-10-23T21:44:27.569222+00:00
+Ford,Escape,2018,t73867,SE FWD,25700,FWD,https://www.cargurus.com/research/2018-Ford-Escape-c26803,2026-10-23T21:44:27.569222+00:00
+Ford,Escape,2018,t73866,S FWD,23940,FWD,https://www.cargurus.com/research/2018-Ford-Escape-c26803,2026-10-23T21:44:27.569222+00:00
+Ford,Escape,2018,t73869,SEL FWD,28100,FWD,https://www.cargurus.com/research/2018-Ford-Escape-c26803,2026-10-23T21:44:27.569222+00:00
+Ford,Escape,2018,t73868,SE AWD,27050,AWD,https://www.cargurus.com/research/2018-Ford-Escape-c26803,2026-10-23T21:44:27.569222+00:00
+Ford,Escape,2017,t66217,SE FWD,25250,FWD,https://www.cargurus.com/research/2017-Ford-Escape-c25626,2026-10-23T21:44:28.944971+00:00
+Ford,Escape,2017,t66218,SE AWD,27000,AWD,https://www.cargurus.com/research/2017-Ford-Escape-c25626,2026-10-23T21:44:28.944971+00:00
+Ford,Escape,2017,t66219,Titanium FWD,29250,FWD,https://www.cargurus.com/research/2017-Ford-Escape-c25626,2026-10-23T21:44:28.944971+00:00
+Ford,Escape,2017,t66220,Titanium AWD,31000,AWD,https://www.cargurus.com/research/2017-Ford-Escape-c25626,2026-10-23T21:44:28.944971+00:00
+Ford,Escape,2017,t66221,S FWD,23750,FWD,https://www.cargurus.com/research/2017-Ford-Escape-c25626,2026-10-23T21:44:28.944971+00:00
+Ford,Escape,2016,t57727,SE AWD,27540,AWD,https://www.cargurus.com/research/2016-Ford-Escape-c24833,2026-10-23T21:44:31.136196+00:00
+Ford,Escape,2016,t57728,SE FWD,25790,FWD,https://www.cargurus.com/research/2016-Ford-Escape-c24833,2026-10-23T21:44:31.136196+00:00
+Ford,Escape,2016,t57726,S FWD,23590,FWD,https://www.cargurus.com/research/2016-Ford-Escape-c24833,2026-10-23T21:44:31.136196+00:00
+Ford,Escape,2016,t57730,Titanium FWD,29995,FWD,https://www.cargurus.com/research/2016-Ford-Escape-c24833,2026-10-23T21:44:31.136196+00:00
+Ford,Escape,2016,t57729,Titanium AWD,31745,AWD,https://www.cargurus.com/research/2016-Ford-Escape-c24833,2026-10-23T21:44:31.136196+00:00
+Ford,Escape,2015,t55391,SE FWD,25550,FWD,https://www.cargurus.com/research/2015-Ford-Escape-c24515,2026-10-23T21:44:33.298657+00:00
+Ford,Escape,2015,t55390,S FWD,23450,FWD,https://www.cargurus.com/research/2015-Ford-Escape-c24515,2026-10-23T21:44:33.298657+00:00
+Ford,Escape,2015,t55393,Titanium FWD,29735,FWD,https://www.cargurus.com/research/2015-Ford-Escape-c24515,2026-10-23T21:44:33.298657+00:00
+Ford,Escape,2015,t55392,SE AWD,27400,AWD,https://www.cargurus.com/research/2015-Ford-Escape-c24515,2026-10-23T21:44:33.298657+00:00
+Ford,Escape,2015,t55394,Titanium AWD,31485,AWD,https://www.cargurus.com/research/2015-Ford-Escape-c24515,2026-10-23T21:44:33.298657+00:00
+Ford,Explorer,2025,t110444,Platinum RWD,52525,RWD,https://www.cargurus.com/research/2025-Ford-Explorer-c33316,2026-10-23T21:44:34.801576+00:00
+Ford,Explorer,2025,t110436,ST-Line AWD,47020,AWD,https://www.cargurus.com/research/2025-Ford-Explorer-c33316,2026-10-23T21:44:34.801576+00:00
+Ford,Explorer,2025,t110438,Active RWD,40050,RWD,https://www.cargurus.com/research/2025-Ford-Explorer-c33316,2026-10-23T21:44:34.801576+00:00
+Ford,Explorer,2025,t110437,ST-Line RWD,45020,RWD,https://www.cargurus.com/research/2025-Ford-Explorer-c33316,2026-10-23T21:44:34.801576+00:00
+Ford,Explorer,2025,t110439,Active AWD,42050,AWD,https://www.cargurus.com/research/2025-Ford-Explorer-c33316,2026-10-23T21:44:34.801576+00:00
+Ford,Explorer,2025,t110441,ST AWD,56770,AWD,https://www.cargurus.com/research/2025-Ford-Explorer-c33316,2026-10-23T21:44:34.801576+00:00
+Ford,Explorer,2025,t110440,Police Interceptor Utility AWD,47185,,https://www.cargurus.com/research/2025-Ford-Explorer-c33316,2026-10-23T21:44:34.801576+00:00
+Ford,Explorer,2025,t110443,Platinum AWD,54525,AWD,https://www.cargurus.com/research/2025-Ford-Explorer-c33316,2026-10-23T21:44:34.801576+00:00
+Ford,Explorer,2025,t110442,ST RWD,54770,RWD,https://www.cargurus.com/research/2025-Ford-Explorer-c33316,2026-10-23T21:44:34.801576+00:00
+Ford,Explorer,2024,t109632,ST AWD,52105,AWD,https://www.cargurus.com/research/2024-Ford-Explorer-c33260,2026-10-23T21:44:36.214774+00:00
+Ford,Explorer,2024,t109631,Timberline AWD,49430,AWD,https://www.cargurus.com/research/2024-Ford-Explorer-c33260,2026-10-23T21:44:36.214774+00:00
+Ford,Explorer,2024,t109630,ST-Line RWD,46455,RWD,https://www.cargurus.com/research/2024-Ford-Explorer-c33260,2026-10-23T21:44:36.214774+00:00
+Ford,Explorer,2024,t109640,Limited RWD,47520,RWD,https://www.cargurus.com/research/2024-Ford-Explorer-c33260,2026-10-23T21:44:36.214774+00:00
+Ford,Explorer,2024,t109629,ST-Line AWD,48455,AWD,https://www.cargurus.com/research/2024-Ford-Explorer-c33260,2026-10-23T21:44:36.214774+00:00
+Ford,Explorer,2024,t109628,XLT RWD,38670,RWD,https://www.cargurus.com/research/2024-Ford-Explorer-c33260,2026-10-23T21:44:36.214774+00:00
+Ford,Explorer,2024,t109639,Limited AWD,49520,AWD,https://www.cargurus.com/research/2024-Ford-Explorer-c33260,2026-10-23T21:44:36.214774+00:00
+Ford,Explorer,2024,t109627,XLT AWD,40670,AWD,https://www.cargurus.com/research/2024-Ford-Explorer-c33260,2026-10-23T21:44:36.214774+00:00
+Ford,Explorer,2024,t109638,Police Interceptor Utility AWD,44335,AWD,https://www.cargurus.com/research/2024-Ford-Explorer-c33260,2026-10-23T21:44:36.214774+00:00
+Ford,Explorer,2024,t109626,Base RWD,36860,RWD,https://www.cargurus.com/research/2024-Ford-Explorer-c33260,2026-10-23T21:44:36.214774+00:00
+Ford,Explorer,2024,t109637,Platinum RWD,54770,RWD,https://www.cargurus.com/research/2024-Ford-Explorer-c33260,2026-10-23T21:44:36.214774+00:00
+Ford,Explorer,2024,t109625,Base AWD,38860,AWD,https://www.cargurus.com/research/2024-Ford-Explorer-c33260,2026-10-23T21:44:36.214774+00:00
+Ford,Explorer,2024,t109636,Platinum AWD,56770,AWD,https://www.cargurus.com/research/2024-Ford-Explorer-c33260,2026-10-23T21:44:36.214774+00:00
+Ford,Explorer,2024,t109635,King Ranch RWD,54625,RWD,https://www.cargurus.com/research/2024-Ford-Explorer-c33260,2026-10-23T21:44:36.214774+00:00
+Ford,Explorer,2024,t109634,King Ranch AWD,56625,AWD,https://www.cargurus.com/research/2024-Ford-Explorer-c33260,2026-10-23T21:44:36.214774+00:00
+Ford,Explorer,2024,t109633,ST RWD,50105,RWD,https://www.cargurus.com/research/2024-Ford-Explorer-c33260,2026-10-23T21:44:36.214774+00:00
+Ford,Explorer,2023,t104053,Timberline AWD,49330,AWD,https://www.cargurus.com/research/2023-Ford-Explorer-c32476,2026-10-23T21:44:37.682639+00:00
+Ford,Explorer,2023,t104064,King Ranch AWD,56525,AWD,https://www.cargurus.com/research/2023-Ford-Explorer-c32476,2026-10-23T21:44:37.682639+00:00
+Ford,Explorer,2023,t104052,Limited AWD,49420,AWD,https://www.cargurus.com/research/2023-Ford-Explorer-c32476,2026-10-23T21:44:37.682639+00:00
+Ford,Explorer,2023,t104063,Platinum RWD,54670,RWD,https://www.cargurus.com/research/2023-Ford-Explorer-c32476,2026-10-23T21:44:37.682639+00:00
+Ford,Explorer,2023,t104055,ST-Line AWD,48355,AWD,https://www.cargurus.com/research/2023-Ford-Explorer-c32476,2026-10-23T21:44:37.682639+00:00
+Ford,Explorer,2023,t104066,ST AWD,52005,AWD,https://www.cargurus.com/research/2023-Ford-Explorer-c32476,2026-10-23T21:44:37.682639+00:00
+Ford,Explorer,2023,t104054,Limited RWD,47420,RWD,https://www.cargurus.com/research/2023-Ford-Explorer-c32476,2026-10-23T21:44:37.682639+00:00
+Ford,Explorer,2023,t104065,King Ranch RWD,54525,RWD,https://www.cargurus.com/research/2023-Ford-Explorer-c32476,2026-10-23T21:44:37.682639+00:00
+Ford,Explorer,2023,t104060,RWD,36760,RWD,https://www.cargurus.com/research/2023-Ford-Explorer-c32476,2026-10-23T21:44:37.682639+00:00
+Ford,Explorer,2023,t104062,Platinum AWD,56670,AWD,https://www.cargurus.com/research/2023-Ford-Explorer-c32476,2026-10-23T21:44:37.682639+00:00
+Ford,Explorer,2023,t104061,Police Interceptor Utility AWD,44335,AWD,https://www.cargurus.com/research/2023-Ford-Explorer-c32476,2026-10-23T21:44:37.682639+00:00
+Ford,Explorer,2023,t104057,XLT AWD,40570,AWD,https://www.cargurus.com/research/2023-Ford-Explorer-c32476,2026-10-23T21:44:37.682639+00:00
+Ford,Explorer,2023,t104056,ST-Line RWD,46355,RWD,https://www.cargurus.com/research/2023-Ford-Explorer-c32476,2026-10-23T21:44:37.682639+00:00
+Ford,Explorer,2023,t104067,ST RWD,50005,RWD,https://www.cargurus.com/research/2023-Ford-Explorer-c32476,2026-10-23T21:44:37.682639+00:00
+Ford,Explorer,2023,t104059,AWD,38760,AWD,https://www.cargurus.com/research/2023-Ford-Explorer-c32476,2026-10-23T21:44:37.682639+00:00
+Ford,Explorer,2023,t104058,XLT RWD,38570,RWD,https://www.cargurus.com/research/2023-Ford-Explorer-c32476,2026-10-23T21:44:37.682639+00:00
+Ford,Explorer,2022,t99197,Limited AWD,49070,AWD,https://www.cargurus.com/research/2022-Ford-Explorer-c31912,2026-10-23T21:44:39.109419+00:00
+Ford,Explorer,2022,t99198,Limited RWD,47070,RWD,https://www.cargurus.com/research/2022-Ford-Explorer-c31912,2026-10-23T21:44:39.109419+00:00
+Ford,Explorer,2022,t99199,Platinum AWD,55775,,https://www.cargurus.com/research/2022-Ford-Explorer-c31912,2026-10-23T21:44:39.109419+00:00
+Ford,Explorer,2022,t99210,Police Interceptor Utility AWD,37740,AWD,https://www.cargurus.com/research/2022-Ford-Explorer-c31912,2026-10-23T21:44:39.109419+00:00
+Ford,Explorer,2022,t99200,Platinum RWD,53775,,https://www.cargurus.com/research/2022-Ford-Explorer-c31912,2026-10-23T21:44:39.109419+00:00
+Ford,Explorer,2022,t99211,ST-Line AWD,47760,AWD,https://www.cargurus.com/research/2022-Ford-Explorer-c31912,2026-10-23T21:44:39.109419+00:00
+Ford,Explorer,2022,t99201,Timberline AWD,48320,AWD,https://www.cargurus.com/research/2022-Ford-Explorer-c31912,2026-10-23T21:44:39.109419+00:00
+Ford,Explorer,2022,t99212,ST-Line RWD,45760,RWD,https://www.cargurus.com/research/2022-Ford-Explorer-c31912,2026-10-23T21:44:39.109419+00:00
+Ford,Explorer,2022,t99202,XLT AWD,40570,AWD,https://www.cargurus.com/research/2022-Ford-Explorer-c31912,2026-10-23T21:44:39.109419+00:00
+Ford,Explorer,2022,t99203,XLT RWD,38570,RWD,https://www.cargurus.com/research/2022-Ford-Explorer-c31912,2026-10-23T21:44:39.109419+00:00
+Ford,Explorer,2022,t99204,King Ranch AWD,55630,,https://www.cargurus.com/research/2022-Ford-Explorer-c31912,2026-10-23T21:44:39.109419+00:00
+Ford,Explorer,2022,t99205,King Ranch RWD,53630,,https://www.cargurus.com/research/2022-Ford-Explorer-c31912,2026-10-23T21:44:39.109419+00:00
+Ford,Explorer,2022,t99206,AWD,37510,AWD,https://www.cargurus.com/research/2022-Ford-Explorer-c31912,2026-10-23T21:44:39.109419+00:00
+Ford,Explorer,2022,t99207,RWD,35510,RWD,https://www.cargurus.com/research/2022-Ford-Explorer-c31912,2026-10-23T21:44:39.109419+00:00
+Ford,Explorer,2022,t99208,ST AWD,51260,AWD,https://www.cargurus.com/research/2022-Ford-Explorer-c31912,2026-10-23T21:44:39.109419+00:00
+Ford,Explorer,2022,t99209,ST RWD,49260,RWD,https://www.cargurus.com/research/2022-Ford-Explorer-c31912,2026-10-23T21:44:39.109419+00:00
+Ford,Explorer,2021,t94668,Limited AWD,47255,AWD,https://www.cargurus.com/research/2021-Ford-Explorer-c30630,2026-10-23T21:44:40.479186+00:00
+Ford,Explorer,2021,t94669,Limited RWD,45255,RWD,https://www.cargurus.com/research/2021-Ford-Explorer-c30630,2026-10-23T21:44:40.479186+00:00
+Ford,Explorer,2021,t94675,XLT RWD,35075,RWD,https://www.cargurus.com/research/2021-Ford-Explorer-c30630,2026-10-23T21:44:40.479186+00:00
+Ford,Explorer,2021,t94674,XLT AWD,37075,AWD,https://www.cargurus.com/research/2021-Ford-Explorer-c30630,2026-10-23T21:44:40.479186+00:00
+Ford,Explorer,2021,t93621,Police Interceptor Utility AWD,37315,AWD,https://www.cargurus.com/research/2021-Ford-Explorer-c30630,2026-10-23T21:44:40.479186+00:00
+Ford,Explorer,2021,t98019,King Ranch RWD,52600,RWD,https://www.cargurus.com/research/2021-Ford-Explorer-c30630,2026-10-23T21:44:40.479186+00:00
+Ford,Explorer,2021,t98018,Platinum RWD,52730,RWD,https://www.cargurus.com/research/2021-Ford-Explorer-c30630,2026-10-23T21:44:40.479186+00:00
+Ford,Explorer,2021,t94671,Platinum AWD,54730,AWD,https://www.cargurus.com/research/2021-Ford-Explorer-c30630,2026-10-23T21:44:40.479186+00:00
+Ford,Explorer,2021,t94670,ST AWD,49000,AWD,https://www.cargurus.com/research/2021-Ford-Explorer-c30630,2026-10-23T21:44:40.479186+00:00
+Ford,Explorer,2021,t94673,RWD,32925,RWD,https://www.cargurus.com/research/2021-Ford-Explorer-c30630,2026-10-23T21:44:40.479186+00:00
+Ford,Explorer,2021,t94672,AWD,34925,AWD,https://www.cargurus.com/research/2021-Ford-Explorer-c30630,2026-10-23T21:44:40.479186+00:00
+Ford,Explorer,2021,t98021,Timberline AWD,46015,AWD,https://www.cargurus.com/research/2021-Ford-Explorer-c30630,2026-10-23T21:44:40.479186+00:00
+Ford,Explorer,2021,t98020,King Ranch AWD,54600,AWD,https://www.cargurus.com/research/2021-Ford-Explorer-c30630,2026-10-23T21:44:40.479186+00:00
+Ford,Explorer,2020,t83130,Police Interceptor Utility AWD,37085,AWD,https://www.cargurus.com/research/2020-Ford-Explorer-c28421,2026-10-23T21:44:42.149982+00:00
+Ford,Explorer,2020,t84879,XLT AWD,38925,AWD,https://www.cargurus.com/research/2020-Ford-Explorer-c28421,2026-10-23T21:44:42.149982+00:00
+Ford,Explorer,2020,t84877,ST AWD,54740,AWD,https://www.cargurus.com/research/2020-Ford-Explorer-c28421,2026-10-23T21:44:42.149982+00:00
+Ford,Explorer,2020,t84876,Limited RWD,48380,RWD,https://www.cargurus.com/research/2020-Ford-Explorer-c28421,2026-10-23T21:44:42.149982+00:00
+Ford,Explorer,2020,t84875,Limited AWD,50380,AWD,https://www.cargurus.com/research/2020-Ford-Explorer-c28421,2026-10-23T21:44:42.149982+00:00
+Ford,Explorer,2020,t84873,Platinum AWD,58250,AWD,https://www.cargurus.com/research/2020-Ford-Explorer-c28421,2026-10-23T21:44:42.149982+00:00
+Ford,Explorer,2020,t84872,RWD,32765,RWD,https://www.cargurus.com/research/2020-Ford-Explorer-c28421,2026-10-23T21:44:42.149982+00:00
+Ford,Explorer,2020,t84871,AWD,34765,AWD,https://www.cargurus.com/research/2020-Ford-Explorer-c28421,2026-10-23T21:44:42.149982+00:00
+Ford,Explorer,2020,t84880,XLT RWD,36925,RWD,https://www.cargurus.com/research/2020-Ford-Explorer-c28421,2026-10-23T21:44:42.149982+00:00
+Ford,Explorer,2019,t80405,Limited,42765,FWD,https://www.cargurus.com/research/2019-Ford-Explorer-c27945,2026-10-23T21:44:43.956488+00:00
+Ford,Explorer,2019,t80404,Base,32365,FWD,https://www.cargurus.com/research/2019-Ford-Explorer-c27945,2026-10-23T21:44:43.956488+00:00
+Ford,Explorer,2019,t80406,XLT,34400,FWD,https://www.cargurus.com/research/2019-Ford-Explorer-c27945,2026-10-23T21:44:43.956488+00:00
+Ford,Explorer,2019,t80401,Police Interceptor Utility AWD,33655,,https://www.cargurus.com/research/2019-Ford-Explorer-c27945,2026-10-23T21:44:43.956488+00:00
+Ford,Explorer,2019,t80400,Platinum AWD,54165,AWD,https://www.cargurus.com/research/2019-Ford-Explorer-c27945,2026-10-23T21:44:43.956488+00:00
+Ford,Explorer,2019,t80403,XLT AWD,36550,AWD,https://www.cargurus.com/research/2019-Ford-Explorer-c27945,2026-10-23T21:44:43.956488+00:00
+Ford,Explorer,2019,t80402,Sport AWD,46625,AWD,https://www.cargurus.com/research/2019-Ford-Explorer-c27945,2026-10-23T21:44:43.956488+00:00
+Ford,Explorer,2019,t80399,Limited AWD,44915,AWD,https://www.cargurus.com/research/2019-Ford-Explorer-c27945,2026-10-23T21:44:43.956488+00:00
+Ford,Explorer,2019,t80398,AWD,34515,AWD,https://www.cargurus.com/research/2019-Ford-Explorer-c27945,2026-10-23T21:44:43.956488+00:00
+Ford,Explorer,2018,t73386,XLT AWD,36325,AWD,https://www.cargurus.com/research/2018-Ford-Explorer-c26679,2026-10-23T21:44:45.595528+00:00
+Ford,Explorer,2018,t73385,XLT,34175,FWD,https://www.cargurus.com/research/2018-Ford-Explorer-c26679,2026-10-23T21:44:45.595528+00:00
+Ford,Explorer,2018,t73379,Base,32140,FWD,https://www.cargurus.com/research/2018-Ford-Explorer-c26679,2026-10-23T21:44:45.595528+00:00
+Ford,Explorer,2018,t73378,AWD,34290,AWD,https://www.cargurus.com/research/2018-Ford-Explorer-c26679,2026-10-23T21:44:45.595528+00:00
+Ford,Explorer,2018,t73380,Limited,42090,FWD,https://www.cargurus.com/research/2018-Ford-Explorer-c26679,2026-10-23T21:44:45.595528+00:00
+Ford,Explorer,2018,t73382,Platinum AWD,53940,AWD,https://www.cargurus.com/research/2018-Ford-Explorer-c26679,2026-10-23T21:44:45.595528+00:00
+Ford,Explorer,2018,t73381,Limited AWD,44240,AWD,https://www.cargurus.com/research/2018-Ford-Explorer-c26679,2026-10-23T21:44:45.595528+00:00
+Ford,Explorer,2018,t73384,Sport AWD,45950,AWD,https://www.cargurus.com/research/2018-Ford-Explorer-c26679,2026-10-23T21:44:45.595528+00:00
+Ford,Explorer,2018,t73383,Police Interceptor Utility AWD,32895,,https://www.cargurus.com/research/2018-Ford-Explorer-c26679,2026-10-23T21:44:45.595528+00:00
+Ford,Explorer,2017,t67516,Police Interceptor Utility AWD,31995,AWD,https://www.cargurus.com/research/2017-Ford-Explorer-c25810,2026-10-23T21:44:47.628025+00:00
+Ford,Explorer,2017,t67137,Base,31660,FWD,https://www.cargurus.com/research/2017-Ford-Explorer-c25810,2026-10-23T21:44:47.628025+00:00
+Ford,Explorer,2017,t67138,XLT,33775,FWD,https://www.cargurus.com/research/2017-Ford-Explorer-c25810,2026-10-23T21:44:47.628025+00:00
+Ford,Explorer,2017,t67139,AWD,33810,AWD,https://www.cargurus.com/research/2017-Ford-Explorer-c25810,2026-10-23T21:44:47.628025+00:00
+Ford,Explorer,2017,t67144,Sport AWD,45355,AWD,https://www.cargurus.com/research/2017-Ford-Explorer-c25810,2026-10-23T21:44:47.628025+00:00
+Ford,Explorer,2017,t67140,Limited,41675,FWD,https://www.cargurus.com/research/2017-Ford-Explorer-c25810,2026-10-23T21:44:47.628025+00:00
+Ford,Explorer,2017,t67141,XLT AWD,35925,AWD,https://www.cargurus.com/research/2017-Ford-Explorer-c25810,2026-10-23T21:44:47.628025+00:00
+Ford,Explorer,2017,t67142,Limited AWD,43825,AWD,https://www.cargurus.com/research/2017-Ford-Explorer-c25810,2026-10-23T21:44:47.628025+00:00
+Ford,Explorer,2017,t67143,Platinum AWD,53235,AWD,https://www.cargurus.com/research/2017-Ford-Explorer-c25810,2026-10-23T21:44:47.628025+00:00
+Ford,Explorer,2016,t57448,Sport 4WD,43500,AWD,https://www.cargurus.com/research/2016-Ford-Explorer-c24768,2026-10-23T21:44:49.056198+00:00
+Ford,Explorer,2016,t57449,XLT 4WD,35400,AWD,https://www.cargurus.com/research/2016-Ford-Explorer-c24768,2026-10-23T21:44:49.056198+00:00
+Ford,Explorer,2016,t57446,Limited 4WD,43300,AWD,https://www.cargurus.com/research/2016-Ford-Explorer-c24768,2026-10-23T21:44:49.056198+00:00
+Ford,Explorer,2016,t57447,Platinum 4WD,52970,AWD,https://www.cargurus.com/research/2016-Ford-Explorer-c24768,2026-10-23T21:44:49.056198+00:00
+Ford,Explorer,2016,t57445,Base 4WD,33050,AWD,https://www.cargurus.com/research/2016-Ford-Explorer-c24768,2026-10-23T21:44:49.056198+00:00
+Ford,Explorer,2016,t57751,Police Interceptor Utility AWD,31175,AWD,https://www.cargurus.com/research/2016-Ford-Explorer-c24768,2026-10-23T21:44:49.056198+00:00
+Ford,Explorer,2016,t57451,Limited,41300,FWD,https://www.cargurus.com/research/2016-Ford-Explorer-c24768,2026-10-23T21:44:49.056198+00:00
+Ford,Explorer,2016,t57452,XLT,33400,FWD,https://www.cargurus.com/research/2016-Ford-Explorer-c24768,2026-10-23T21:44:49.056198+00:00
+Ford,Explorer,2016,t57450,Base,31050,FWD,https://www.cargurus.com/research/2016-Ford-Explorer-c24768,2026-10-23T21:44:49.056198+00:00
+Ford,Explorer,2015,t54712,Limited,38200,FWD,https://www.cargurus.com/research/2015-Ford-Explorer-c24408,2026-10-23T21:44:51.105363+00:00
+Ford,Explorer,2015,t54711,Limited 4WD,40200,AWD,https://www.cargurus.com/research/2015-Ford-Explorer-c24408,2026-10-23T21:44:51.105363+00:00
+Ford,Explorer,2015,t54714,Base,30700,FWD,https://www.cargurus.com/research/2015-Ford-Explorer-c24408,2026-10-23T21:44:51.105363+00:00
+Ford,Explorer,2015,t54713,Base 4WD,32700,AWD,https://www.cargurus.com/research/2015-Ford-Explorer-c24408,2026-10-23T21:44:51.105363+00:00
+Ford,Explorer,2015,t54710,Police Interceptor Utility AWD,30185,AWD,https://www.cargurus.com/research/2015-Ford-Explorer-c24408,2026-10-23T21:44:51.105363+00:00
+Ford,Explorer,2015,t54709,Sport 4WD,43100,AWD,https://www.cargurus.com/research/2015-Ford-Explorer-c24408,2026-10-23T21:44:51.105363+00:00
+Ford,Explorer,2015,t54708,XLT,33000,FWD,https://www.cargurus.com/research/2015-Ford-Explorer-c24408,2026-10-23T21:44:51.105363+00:00
+Ford,Explorer,2015,t54707,XLT 4WD,35000,AWD,https://www.cargurus.com/research/2015-Ford-Explorer-c24408,2026-10-23T21:44:51.105363+00:00

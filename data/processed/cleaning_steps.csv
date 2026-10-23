@@ -1,0 +1,7 @@
+step,rows
+Parsed rows,2904
+"Selected makes, models and years 2015-2025",2420
+"Valid price, mileage and VIN",2420
+Unique VIN within each source,1623
+Unique VIN across both sources,1617
+Matched historical MSRP without guessing,1325

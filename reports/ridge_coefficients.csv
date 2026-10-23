@@ -1,0 +1,77 @@
+feature,coefficient
+numeric__vehicle_age,-0.057311395773407964
+numeric__mileage,-0.10026450774591568
+numeric__original_msrp,-0.02847369517970245
+numeric__mentions_leather,-0.003960395543337858
+numeric__mentions_navigation,-0.0007344273952742696
+numeric__description_available,0.014263423860257007
+category__make_Ford,-0.09405208834158683
+category__make_Honda,0.033763247748227025
+category__make_Toyota,0.06028884059327218
+category__model_Accord,-0.01713615343760535
+category__model_CR-V,0.01575508764817253
+category__model_Camry,0.006318878955745568
+category__model_Civic,0.0351443135376615
+category__model_Corolla,0.004738363641075557
+category__model_Escape,-0.06144254339093358
+category__model_Explorer,0.0008467489418132633
+category__model_Fusion,-0.033456293892433764
+category__model_RAV4,0.04923159799648373
+category__trim_Active AWD,0.0031588156467155025
+category__trim_EX,0.0041070551296502784
+category__trim_EX AWD,0.000813221465060712
+category__trim_EX FWD,-0.02866681973824719
+category__trim_EX-L,0.008068213198155857
+category__trim_EX-L AWD,0.0007006565900521275
+category__trim_EX-L FWD,-0.005910892153366822
+category__trim_LE,0.004414456276139871
+category__trim_LE FWD,-0.002512921879168025
+category__trim_LX,0.018742340859990967
+category__trim_LX FWD,-0.019942548223882618
+category__trim_Limited,-0.006490611756083085
+category__trim_S,-0.0024537650697332397
+category__trim_S FWD,0.006328019734547006
+category__trim_SE,0.0016747000813922216
+category__trim_SE AWD,-0.017078184377451427
+category__trim_SE FWD,-0.01664332287116086
+category__trim_Sport,0.013629602258130806
+category__trim_Sport FWD,0.018249094609131395
+category__trim_Titanium,-0.014284242409433772
+category__trim_Titanium AWD,-0.013008196778359325
+category__trim_Touring,0.007495585960225604
+category__trim_Touring FWD,-0.0008599675686010297
+category__trim_XLE,-0.003917075548624971
+category__trim_XLE AWD,0.011898314248824083
+category__trim_XLE FWD,-0.010202780164983126
+category__trim_XLT,0.006562132750281641
+category__trim_XLT AWD,0.02220153376543896
+category__trim_infrequent_sklearn,0.013927585965363573
+category__body_type_hatchback,-0.007593200510083728
+category__body_type_sedan,0.005598325158665435
+category__body_type_suv,0.0001953950924381778
+category__body_type_suv / crossover,0.00419549610312091
+category__body_type_infrequent_sklearn,-0.0023960158441474295
+category__color_black,0.0010865530695960467
+category__color_blue,0.0034846246422878917
+category__color_gray,0.005460693969673275
+category__color_red,0.000929423733906857
+category__color_silver,-0.0019462753015296506
+category__color_unknown,-0.0037817327324866407
+category__color_white,0.0029464616452457583
+category__color_infrequent_sklearn,-0.008179749026689161
+category__city_Dallas,0.0284368588217186
+category__city_Florida City,-0.03505009838423658
+category__city_Fort Lauderdale,-0.018245981881338802
+category__city_Fort Myers,-0.025763532827686324
+category__city_Fort Worth,0.009081854483166812
+category__city_Hillsboro,0.03680788055601356
+category__city_Hollywood,-0.035925535140384365
+category__city_Medford,0.0424912949911399
+category__city_Miami,-0.030242178300143033
+category__city_Orlando,-0.007143701085059894
+category__city_Pompano Beach,-0.017979239914058653
+category__city_Portland,0.04810966981518799
+category__city_Tampa,-0.026824824717190308
+category__city_infrequent_sklearn,0.03224753358288281
+category__source_CarGurus,0.011333219437686339
+category__source_iSeeCars,-0.011333219437684727

@@ -1,0 +1,163 @@
+Predicting Used Car Value Retention
+
+Multi-source data and machine learning | October 23, 2026
+
+1. Project description
+
+The goal was to predict how much of a car's original value it keeps and find which features are most related to depreciation. The target is the current listing price divided by original MSRP. For example, a ratio of 0.60 means the asking price is 60% of the original MSRP. This predicts an asking-price ratio, not a final sale price.
+
+2. Data collection
+
+Listings were scraped from CarGurus and iSeeCars using Requests and BeautifulSoup. CarGurus data came from public model, year, and color search pages. iSeeCars data came from model searches around Portland, Dallas, Chicago, Miami, Los Angeles, and Philadelphia. This is a convenience sample of search results.
+
+Source | Initially parsed | Unique valid before merge | Final dataset
+CarGurus | 1824 | 887 | 884
+iSeeCars | 1080 | 736 | 441
+The final dataset has 1,325 cars and no repeated VINs. There are three makes with three models each: Toyota Camry, Corolla and RAV4; Honda Accord, Civic and CR-V; and Ford Fusion, Escape and Explorer. The selected model years are 2015-2025. Ford Fusion research coverage ends at 2020.
+
+Historical MSRP was scraped from CarGurus Research tables by make, model, year and trim. Each retained car has a source URL for its MSRP. The MSRP is the trim's starting price, not a VIN-specific sticker with every optional package. Listing URLs and UTC collection times are saved in the raw files.
+
+Data at a glance
+
+Attribute | Median | Range
+Listing price (USD) | 16,991 | 3,995 - 39,991
+Mileage (miles) | 69,046 | 235 - 273,880
+Age (years) | 6 | 1 - 11
+Retention ratio | 0.632 | 0.135 - 1.123
+
+---
+
+3. Preprocessing and integration
+
+The raw sources used different field names. For example, manufacturer became make, model_year became year, and odometer became mileage. The code removed currency punctuation, converted numeric fields, made colors and body types consistent, and split location into city and state. Prices use USD and mileage uses miles.
+
+The original attributes include VIN, listing ID, make, model, year, trim, price, mileage, body type, color, title and location. CarGurus also provides transmission, drivetrain, fuel type, engine, seller name, equipment descriptions and days on market. This exceeds the ten-original-attribute requirement. Full descriptive statistics and missing-value rates are saved as CSV files.
+
+Cleaning step | Rows remaining
+Parsed rows | 2904
+Selected makes, models and years 2015-2025 | 2420
+Valid price, mileage and VIN | 2420
+Unique VIN within each source | 1623
+Unique VIN across both sources | 1617
+Matched historical MSRP without guessing | 1325
+The code keeps the chosen makes/models and years, checks VINs, and accepts prices from $1,000 to $150,000 and mileage from 0 to 500,000. These broad rules remove invalid or suspicious records. For this snapshot, the numeric/VIN checks removed 0 extra rows after the year/model filter.
+
+Repeated VINs were removed within each source and then across sources. When both sites listed the same VIN, the richer CarGurus record was kept. MSRP matching uses trim IDs first, then normalized trim names. A shortened name is accepted only if all matching candidates have the same MSRP. Ambiguous matches are excluded rather than filled with a guessed price.
+
+Missing values stay visible in the saved data. During model training, numeric predictors use the training median and categorical predictors use 'unknown'. No test rows are used to learn these values. Ratios above 1 are kept because a used asking price can exceed the original base MSRP.
+
+Figure 1. All nine models are represented. Source contributions are uneven after cleaning and MSRP matching.
+
+
+---
+
+4. Feature engineering
+
+Vehicle age is collection year minus model year. Miles per year is also calculated for exploration, but the fitted models use mileage and age separately. Make and model are combined only to keep the train/test split balanced across the nine models.
+
+Two text features come from the short equipment descriptions attached to CarGurus listings: mentions_leather and mentions_navigation. For example, 'Leather Seats; Navigation System' gives 1 for both. There are 154 leather mentions and 253 navigation mentions. These are listing equipment phrases, not full seller-written paragraphs.
+
+Descriptions are available for 881 of 1325 cars. iSeeCars search cards do not expose this text, so their text features are missing, not automatically zero. A separate description_available flag tells the model when text was missing. The flags show what was advertised; they do not verify the equipment or vehicle history.
+
+Handling many categories
+
+Trim and city have many different values: 91 trims and 561 cities in the training set. One-hot encoding turns categories into numeric columns. Categories appearing fewer than 10 times in a training fold are grouped into an infrequent category. Unseen categories use that group where it exists. This keeps the representation smaller; the final fitted preprocessing produces 76 columns.
+
+This method is easy to understand and does not use the target to encode a category. Its downside is that rare places or trims lose their individual detail. The encoder is fitted again inside every cross-validation fold, which prevents test information from leaking into training.
+
+5. Model development
+
+The split uses 80% training (1060 cars) and 20% testing (265 cars), random_state=42, stratified by make/model. All models use the same rows and predictors. Three-fold shuffled cross-validation on the training set chooses the model with the lowest mean RMSE. Parameters were fixed in advance; there was no broad hyperparameter search.
+
+Model | Main settings
+Ridge regression | Linear regression with L2 regularization; alpha=10.
+Random forest | 200 trees; min_samples_leaf=3; max_features=0.8; random_state=42.
+Gradient boosting | 150 trees; learning_rate=0.05; max_depth=3; min_samples_leaf=5; random_state=42.
+Numeric predictors are age, mileage, original MSRP and the text/availability flags. Categorical predictors are make, model, trim, body type, color, city and source. Numeric inputs are standardized after imputation. Listing price, VIN, URLs, the target and dealer price estimates are excluded. MSRP is a known vehicle specification, so using it does not reveal the used listing price.
+
+
+---
+
+6. Evaluation results
+
+MAE is the average size of an error. RMSE gives bigger errors more weight. Lower values are better for both. R-squared measures how much of the variation in the test target is explained; it is not classification accuracy. All errors below are in retention-ratio units.
+
+Model | CV RMSE | Test MAE | Test RMSE | Test R²
+Ridge regression | 0.0619 | 0.0474 | 0.0612 | 0.9091
+Random forest | 0.0651 | 0.0507 | 0.0649 | 0.8979
+Gradient boosting | 0.0615 | 0.0472 | 0.0602 | 0.9122
+Gradient boosting had the lowest training CV RMSE and was selected. Its test MAE of 0.0472 means an average error of about 4.72 percentage points of original value. Its test R-squared was 0.912. A simple model that always predicts the training mean had test RMSE 0.203, so the trained models improved a lot over that baseline.
+
+Ridge was very close to gradient boosting and did better than the random forest in this experiment. This suggests a simple model already captures much of the pattern. The small gap between ridge and boosting should not be treated as proof that boosting will always be better. More splits or future data would be needed to judge that.
+
+Figure 2. Test-set comparison using the same 265 cars for each model. These are regression metrics, not accuracy percentages.
+
+The training CV standard deviations were small, but they describe only three folds of this particular sample. They are not confidence intervals for future-market performance.
+
+Selected model by source | Test cars | MAE | RMSE
+iSeeCars | 83 | 0.0426 | 0.0570
+CarGurus | 182 | 0.0493 | 0.0616
+The source-level errors are different. The two websites have different samples and available fields, so this comparison does not show that one source is inherently better. Both sources appear in training and testing; this is not a test of transfer to an unseen website.
+
+
+---
+
+7. Depreciation analysis and feature ranking
+
+The strongest predictors were mileage, make, vehicle age. Importance was measured by shuffling one original input column in the test set and seeing how much RMSE increased. The shuffle was repeated ten times. A larger increase means the model relied more on that feature.
+
+Figure 3. Permutation importance for the CV-selected model. Error bars show variation across ten shuffles, not confidence intervals for causal effects.
+
+Mileage and age both had negative relationships with retention. Their sample correlations with retention were -0.741 and -0.699. The ridge coefficients were also negative: -0.100 for mileage and -0.057 for age, per one training standard-deviation increase, with the other model inputs held fixed.
+
+Make also mattered. The sample median retention ratios were about 0.43 for Ford, 0.71 for Honda and 0.77 for Toyota. These are descriptive comparisons, not an isolated brand effect. The makes also have different age and mileage distributions. Model selection, condition, buyer demand and other unmeasured differences could explain part of the gap.
+
+Original MSRP and city added some predictive information. Leather and navigation mentions had importance close to zero. Their information may already be reflected in trim and MSRP, and missing descriptions limit what can be learned. A tiny negative importance value is sampling noise, not evidence that leather reduces a car's value.
+
+Age and mileage are correlated, and make overlaps with model. Permutation importance can split importance between related inputs or create unusual combinations when one is shuffled. These rankings describe this fitted model; they do not prove the causes of depreciation.
+
+
+---
+
+8. Visualizations and what they show
+
+Figure 4. Price, mileage and retention distributions for the final dataset.
+
+The median asking price was $16,991 and median mileage was 69,046 miles. Mean retention was 62.3%, which corresponds to a nominal loss of about 37.7% from trim MSRP across this sample. That is not an annual depreciation rate. The few ratios above 1 may reflect options, fees, inflation, market demand or asking-price choices.
+
+Figure 5. Older and higher-mileage cars generally have lower retention, with substantial variation at the same age or mileage.
+
+Figure 6. Average model predictions when age or mileage is changed while other inputs are held at their training values.
+
+The partial-dependence plots help show the model's overall direction. They are not a forecast of how one specific car will age. Since age and mileage move together in real life, some combinations used by these plots are less realistic.
+
+
+---
+
+9. Discussion and conclusion
+
+The project met the required sample size with 1,325 unique cars, two listing sources, three makes and nine models. Gradient boosting was the best of the tested models by training cross-validation, but ridge was a close and simpler alternative. Mileage, make and age were the main predictors in this sample. Higher age and mileage generally went with lower retained value.
+
+Main lessons
+
+The project shows that collecting and matching the data takes as much care as fitting a model. The same car can appear on several pages or websites. A wrong MSRP match changes the target itself, so checking the make, model, year and trim is important. It also shows that adding text features does not automatically improve predictions, and a more complex model is not always much better than a simple one.
+
+Challenges and limitations
+
+Several sites tested at the start blocked automated requests, so collection used accessible CarGurus and iSeeCars pages. The two sites expose different attributes. Full seller paragraphs were not available in these search pages, and description-based features use the available equipment text. Matching short trim names was another challenge; 292 otherwise valid unique cars were excluded for missing or ambiguous MSRP matches.
+
+The sample is limited to nine models, selected search pages, and one collection period. It is not representative of every car or seller. The two sources can share dealer inventory; VIN deduplication removes exact overlaps, but it does not remove all shared market biases. The test is a random split within this snapshot, not a future-year, unseen-dealer or unseen-source test.
+
+Asking prices may include different fees and are not actual sale prices. MSRP does not include every vehicle's options and is not adjusted for inflation. Accident history, maintenance, condition and local demand are not fully measured. The results describe associations, not causal depreciation rates. A useful next step would be a later collection period and verified condition/history data.
+
+10. AI usage statement
+
+OpenAI Codex was used to set up the repository, find accessible sources, generate and run the scraping and analysis code, validate the results, and draft this report. The student supplied the assignment requirements, chose the repository visibility, and requested simple code and wording. The generated code, data collection, analysis and report are not claimed as independently completed student work. Any independent review or changes should be described here by the student before submission.
+
+Sources and reproducibility
+
+CarGurus listings: https://www.cargurus.com/Cars/l-Used-Toyota-Camry-d292
+iSeeCars listings: https://www.iseecars.com/used_cars-t10341-toyota-camry-portland-or
+MSRP example: https://www.cargurus.com/research/2020-Toyota-Camry-c29167
+
+Every collected page is listed in data/raw/collection_log.csv, and each MSRP row includes its research URL. Encoding and importance follow the scikit-learn documentation: https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html and https://scikit-learn.org/stable/modules/permutation_importance.html. Run python run_project.py and python src/check_project.py from the repository to reproduce and check the saved-data analysis.
