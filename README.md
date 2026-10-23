@@ -1,73 +1,62 @@
-# Predicting Used Car Value Retention
+# Used Car Value Retention
 
-This project looks at how much of a used car's original value it keeps. It uses real listings scraped from **CarGurus and iSeeCars**, plus historical MSRP tables from **CarGurus Research**.
+This project predicts how much of its original value a used car keeps.
 
-**Value retention ratio = listing price / original MSRP**
+**Value retention = listing price / original MSRP**
 
-The study covers Toyota (Camry, Corolla, RAV4), Honda (Accord, Civic, CR-V), and Ford (Fusion, Escape, Explorer), model years 2015–2025. Prices are US dollars and distances are miles.
+## What is included?
 
-The saved October 23, 2026 snapshot has **1,325 unique cars** after cleaning and MSRP matching. Before integration, the sources supplied **887** valid unique CarGurus listings and **736** valid unique iSeeCars listings. Gradient boosting had the lowest training cross-validation RMSE; its test MAE was **0.0472**, RMSE **0.0602**, and R² **0.9122**. Mileage, make, and vehicle age were the strongest predictors.
+- Real listings scraped from **CarGurus and iSeeCars**.
+- **1,325 unique cars** after cleaning and matching MSRP.
+- Three makes: Toyota, Honda and Ford, with three models each.
+- Raw data, cleaned data, code, six charts and a final report.
+- Three models: ridge regression, random forest and gradient boosting.
+
+Each source had over 500 unique valid listings before merging (887 CarGurus and 736 iSeeCars). MSRP comes from CarGurus Research.
 
 ## Start here
 
-- [Final report](reports/final_report.pdf): methods, results, charts, discussion, limitations, and AI usage.
-- [Notebook](notebooks/project_walkthrough.ipynb): a step-by-step way to run the project, including in Google Colab.
-- [Model results](reports/model_results.csv) and [data requirement checks](data/processed/data_checks.json).
-- [Assignment checklist](reports/assignment_checklist.txt): where to find each required part.
+1. Open the [notebook](notebooks/project_walkthrough.ipynb) for the steps.
+2. Read the [final report](reports/final_report.pdf).
+3. See the [assignment checklist](reports/assignment_checklist.txt).
 
-## Run with the included data
+## Run the project
 
-Use Python 3.11–3.13. From this repository's folder:
+The data is already included. From the project folder, with Python 3.11–3.13:
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate
 pip install -r requirements.txt
 python run_project.py
 python src/check_project.py
 ```
 
-On Windows, use `.venv\Scripts\activate` instead of the `source` command.
+The notebook also has instructions for Google Colab.
 
-The raw data is included, so **you do not need to scrape again** to reproduce the experiment. The main script cleans the data, trains the models, and builds the report. Exact package versions used for the saved results are listed in `reports/environment.txt`.
+## Main steps
 
-## Collect a fresh sample (optional)
+1. Clean column names and remove duplicate cars using VIN.
+2. Match each car with MSRP by make, model, year and trim.
+3. Create age and two text features: leather and navigation mentions.
+4. Fill missing values, scale numbers and one-hot encode categories. Rare city and trim values are grouped together.
+5. Use the same 80/20 split for all models. Choose a model using three-fold training cross-validation.
+6. Compare MAE, RMSE and R², then plot feature importance.
 
-```bash
-python src/collect_data.py
-python run_project.py
-```
+## Results
 
-The scraper uses Requests and BeautifulSoup to parse public HTML and the structured data embedded in it. It waits between requests and caches successful responses in `.cache/`. Existing cached pages are reused. Remove that local cache only if you intentionally want a fresh collection. Websites change and may block requests; the script records failed pages and does not bypass CAPTCHAs or access restrictions. Fresh results will differ from the included snapshot. The script writes raw CSV files, so back up the supplied data before collecting again.
+Gradient boosting did best: **MAE 0.0472, RMSE 0.0602, R² 0.9122**. Ridge was close. Mileage, make and age mattered most.
+
+These are asking prices, not sale prices. MSRP may miss options and fees. Text features use short equipment descriptions, not full seller paragraphs. Missing text is recorded as unknown. The sample covers selected search pages, so it does not represent every used car.
 
 ## Files
 
-- `src/collect_data.py`: both listing scrapers and the MSRP scraper.
-- `src/prepare_data.py`: combines field names, checks values, removes duplicate VINs, matches MSRP, and creates features.
-- `src/train_models.py`: ridge regression, random forest, gradient boosting, evaluation, and six charts.
-- `src/make_report.py`: builds the report using saved results.
-- `src/check_project.py`: checks the main assignment requirements and recalculates the evaluation metrics.
-- `data/raw/cargurus_listings.csv` and `data/raw/iseecars_listings.csv`: initially parsed records, including repeated listings.
-- `data/raw/msrp.csv`: original MSRP by make, model, year, and trim, with source URLs.
-- `data/raw/collection_log.csv`: page URLs, collection timestamps, and HTTP status codes.
-- `data/raw/collection_errors.csv`: unsuccessful collection attempts.
-- `data/processed/integrated_cars.csv`: final, unique, MSRP-matched dataset.
-- `data/processed/cleaning_steps.csv`: record counts after each cleaning step.
-- `data/processed/excluded_msrp.csv`: cars excluded because MSRP was unavailable or the trim match was ambiguous.
-- `reports/`: metrics, predictions, split IDs, feature rankings, figures, and final report.
+- `src/`: scraping, cleaning, training, report and checking code.
+- `data/raw/`: separate source files, MSRP and source links.
+- `data/processed/`: cleaned data, statistics and cleaning counts.
+- `reports/`: results, charts and report.
+- `notebooks/`: step-by-step notebook.
 
-## Main choices
-
-The same 80/20 split is used for all three models. Three-fold cross-validation uses only the training set to choose the model. Imputation, scaling, and encoding are fitted inside each training fold. High-cardinality trim and city values use one-hot encoding with rare categories grouped together.
-
-Two text features detect leather and navigation in the listing's short equipment descriptions. These are descriptive equipment phrases, **not full seller-written paragraphs**. iSeeCars search cards do not expose this text, so missing descriptions are recorded as unknown. A phrase not appearing is not proof that a vehicle lacks the equipment.
-
-The target uses historical trim MSRP rather than a dealer's crossed-out price. MSRP matches must be exact by trim ID/name or unambiguous after simple formatting changes. The code does not fill unmatched cars with an average MSRP. CarGurus listing prices use the base asking price where fees are separately available; iSeeCars prices follow the amount shown on the card. Fee treatment, optional packages, and destination charges can still differ.
-
-Listing price, the retention ratio, VIN, URLs, and dealer price estimates are **not predictors**. Original MSRP is a known vehicle specification and is allowed as a predictor. VIN is used to remove duplicates before splitting.
-
-These are advertised prices, not completed sale prices. The sample is a convenience sample from search pages, not a random sample of the whole used-car market. Associations and feature importance do not prove what causes depreciation.
+To collect again, run `python src/collect_data.py`. It reuses cached pages in `.cache/`. Back up the supplied raw files first. Listings change and sites may block scraping, so new results may differ.
 
 ## AI usage
 
-OpenAI Codex helped create the repository, research accessible sources, write and run the collection and analysis code, check the outputs, and draft the report. The student supplied the assignment and requested simple code and wording. No part of the generated code, data collection, analysis, or report is claimed to have been independently completed by the student. The student should review the work, understand the code, and update this statement with any independent changes before submitting.
+OpenAI Codex wrote and ran the code, checked results and drafted the report. The student supplied the assignment and requested simple wording. Generated work is not claimed as independent student work. Add any work you personally complete before submitting.
