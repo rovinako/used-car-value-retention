@@ -62,7 +62,7 @@ ASSIGNMENT CHECKLIST - saved October 23, 2026 experiment
     feature ranking, age/mileage scatter plots and partial dependence.
 
 13. Final report
-    reports/final_report.pdf (7 pages) and editable plain-text copy.
+    reports/final_report.pdf (5 pages) and editable plain-text copy.
     Covers project goal, collection, integration, feature engineering, models,
     results, depreciation, visualizations, conclusion, lessons and challenges.
     AI usage is explicitly disclosed in section 10 and in README.md.

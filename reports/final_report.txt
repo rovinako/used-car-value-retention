@@ -4,22 +4,22 @@ Rovena Nako | October 23, 2026
 
 1. Project description
 
-This project predicts how much of its original value a used car keeps. Value retention = listing price / original MSRP. For example, 0.60 means the car is listed for 60% of its original price.
+This project looks at how much value a used car keeps. The goal is to predict its value and see what affects it most. Value retention = listing price / original MSRP. A ratio of 0.60 means the asking price is 60% of the original MSRP.
 
 2. Data collection
 
-The data was scraped from CarGurus and iSeeCars with Requests and BeautifulSoup. Original MSRP came from CarGurus Research tables. The raw files save the page links and collection dates.
+The listings came from CarGurus and iSeeCars. Requests and BeautifulSoup were used to scrape them. MSRP prices came from CarGurus Research. The links and dates are saved with the data.
 
 Source | Raw rows | Unique before merge | Final rows
 CarGurus | 1824 | 887 | 884
 iSeeCars | 1080 | 736 | 441
 The final dataset has 1,325 unique cars from 2015-2025. It includes Toyota (Camry, Corolla, RAV4), Honda (Accord, Civic, CR-V), and Ford (Fusion, Escape, Explorer). Fusion years end at 2020. Each source had more than 500 unique valid listings before merging.
 
-Collected fields include VIN, listing ID, make, model, year, trim, price, mileage, body type, color, title and location. This meets the requirement of at least ten original attributes.
+Collected fields include VIN, listing ID, make, model, year, trim, price, mileage, body type, color, title and location. That gives more than ten original fields.
 
 3. Cleaning and combining the data
 
-Column names and formats were made consistent. Prices use dollars and mileage uses miles. The code checks VINs and keeps prices from $1,000 to $150,000 and mileage from 0 to 500,000. Duplicate VINs are removed. If both sites list the same car, the CarGurus row is kept because it has more details.
+The column names were changed so both files could be combined. Prices are in dollars and mileage is in miles. The code checks VINs, prices ($1,000-$150,000) and mileage (0-500,000). Repeated cars are removed using VIN. When a car is on both sites, the CarGurus row is kept because it has more details.
 
 Step | Rows left
 Parsed rows | 2904
@@ -28,28 +28,28 @@ Valid price, mileage and VIN | 2420
 Unique VIN within each source | 1623
 Unique VIN across both sources | 1617
 Matched historical MSRP without guessing | 1325
-MSRP is matched by make, model, year and trim. Unclear matches are removed instead of guessing. Missing numbers are filled with the training median and missing categories with 'unknown' during training. The saved dataset still shows missing values.
+Each car is matched to MSRP using make, model, year and trim. Cars without a clear match are left out. For training, missing numbers use the training median and missing categories use 'unknown'.
 
 
 ---
 
 4. Feature engineering
 
-Vehicle age = collection year - model year. Miles per year is calculated for exploration, but the models use age and mileage separately. The target is listing price / MSRP.
+Age is calculated by subtracting the model year from the collection year. Miles per year is also saved, but the models use age and mileage separately.
 
-Text features check for leather and navigation in equipment descriptions: 154 leather and 253 navigation mentions. Text is available for 881 cars. These are short phrases, not full seller paragraphs. Missing text stays unknown, with a flag for description availability.
+Two new columns check whether the listing mentions leather or navigation: 154 leather and 253 navigation mentions. Text is available for 881 cars. These are short equipment descriptions. Missing text stays unknown. Another column shows whether a description was available.
 
-One-hot encoding turns categories into columns. The training data has 561 cities and 91 trims. Values appearing fewer than ten times are grouped together. This saves columns but loses rare-category details.
+One-hot encoding makes a 0/1 column for each category. The training data has 561 cities and 91 trims. Categories seen fewer than ten times are grouped together. This keeps the number of columns smaller, but loses some detail.
 
 5. Models
 
-All three models use the same 80/20 split: 1060 training cars and 265 test cars. The split is balanced by make/model and uses random_state=42. Three-fold cross-validation on training data chooses the best model. Missing-value filling, scaling and encoding are learned only from training rows.
+All three models use the same 80/20 split: 1060 training cars and 265 test cars. Each make/model is included in both sets, using random_state=42. Three-fold cross-validation compares models within the training set. Filling missing values, scaling and encoding use training data only.
 
 Model | Settings
 Ridge regression | alpha=10
 Random forest | 200 trees, min_samples_leaf=3, max_features=0.8
 Gradient boosting | 150 trees, learning_rate=0.05, max_depth=3, min_samples_leaf=5
-Both tree models use seed 42. Inputs are age, mileage, MSRP, text flags, make, model, trim, body type, color, city and source. Numbers are standardized. Price and retention are excluded to avoid giving away the answer.
+Both tree models use seed 42. Inputs are age, mileage, MSRP, text columns, make, model, trim, body type, color, city and source. Numbers are scaled to a similar range. Listing price and retention are left out because they would give away the answer.
 
 6. Results
 
@@ -57,7 +57,7 @@ Model | CV RMSE | Test MAE | Test RMSE | Test R²
 Ridge regression | 0.0619 | 0.0474 | 0.0612 | 0.9091
 Random forest | 0.0651 | 0.0507 | 0.0649 | 0.8979
 Gradient boosting | 0.0615 | 0.0472 | 0.0602 | 0.9122
-Lower MAE and RMSE are better. Higher R² is better; it is not accuracy. Gradient boosting had the lowest training CV error. Its test MAE of 0.0472 means an average error of about 4.72 percentage points of original value. Ridge was close, so boosting may not always be the best on new data.
+MAE is the average error. RMSE gives more weight to large errors. Lower is better for both. Higher R² is better; it is not accuracy. Gradient boosting had the lowest training CV error. Its test MAE of 0.0472 means an average error of about 4.72 percentage points of original value. Ridge was close, so a simpler model also worked well.
 
 Figure 1. All models were tested on the same cars.
 
@@ -68,7 +68,7 @@ Figure 1. All models were tested on the same cars.
 
 Figure 2. Price, mileage and retention in the cleaned data.
 
-The median price was $16,991, median mileage was 69,046 miles, and median age was 6 years. Mean retention was 62.3%. This is a snapshot of asking prices, not an annual depreciation rate. Full statistics and missing-value counts are saved in the data folder.
+The median price was $16,991, median mileage was 69,046 miles, and median age was 6 years. Mean retention was 62.3%. These are asking prices from one collection period. They do not show how much value a car loses each year. More statistics are saved in the data folder.
 
 Figure 3. All nine models are included. The two sources have different numbers of cars after cleaning.
 
@@ -77,15 +77,15 @@ Figure 4. Older cars and cars with more miles generally keep less value. Cars of
 
 ---
 
-8. Depreciation and feature ranking
+8. What affects car value?
 
-Feature importance was measured by shuffling one input and checking how much worse the predictions became. This was repeated ten times. A bigger increase in error means the feature mattered more to the model.
+To check which features mattered, one column was shuffled and the model was tested again. This was done ten times. If the error went up a lot, that feature was important.
 
 Figure 5. Mileage, make and age were the main predictors. Bars show the average change in RMSE; error lines show variation across shuffles.
 
-Higher mileage and older age generally went with lower value retention. Make also mattered, but the brands have different mixes of age, mileage and models. The results do not prove that the brand alone caused the difference.
+Older cars and cars with more miles usually kept less value. Make also mattered. But the brands had different ages and mileage, so the difference cannot be explained by brand alone.
 
-MSRP and city added some information. Leather and navigation mentions had little importance. Trim and MSRP may already capture these details, and many descriptions were missing. Related inputs can share importance, so the ranking is not exact proof of what causes depreciation.
+MSRP and city helped a little. Leather and navigation mentions did not add much. Many descriptions were missing, and trim or MSRP may already explain these differences. The ranking shows what the model used, not proof of cause and effect.
 
 Figure 6. The model's average prediction when age or mileage changes. These show model patterns, not how one specific car will lose value.
 
@@ -96,23 +96,23 @@ Figure 6. The model's average prediction when age or mileage changes. These show
 
 The project used 1,325 unique cars from two websites and compared three models. Gradient boosting performed best in this experiment, with ridge close behind. Mileage, make and age were the most important factors. Older cars and cars with higher mileage usually kept less value.
 
-What the project taught
+What this project shows
 
-Cleaning the data and matching MSRP are just as important as training the models. A wrong MSRP changes the answer we are trying to predict. More complicated models are not always much better, and adding text features does not always help.
+The main lesson is that clean data matters. If MSRP is wrong, the value retention is wrong too. A complicated model is not always much better than a simple one.
 
 Challenges
 
-Some websites blocked scraping. The two usable sites had different column names and missing details. Cars also appeared more than once. Matching trim names was difficult, and 292 unique cars were removed because MSRP could not be matched clearly.
+Some websites blocked scraping. The two sites used different names for columns, had missing details and listed some cars more than once. Trim names were hard to match, so 292 unique cars were removed because MSRP could not be matched clearly.
 
-Limitations and next steps
+What could be better
 
-The data covers only nine models from selected search pages at one point in time. It does not represent the whole market. Listing prices are asking prices, not final sale prices. Original MSRP is the trim's starting price and may miss options or fees. Inflation is not included.
+The data only covers nine models and one collection period. It does not cover the whole market. Asking prices may differ from sale prices. MSRP may miss extra options and fees, and inflation is not included.
 
-Condition, accidents and maintenance are not fully measured. The test uses cars from the same snapshot and websites as training, so future results may be different. A next step would be collecting later listings and adding reliable condition and history information.
+Condition, accidents and maintenance are not fully known. The test cars came from the same websites and period as the training cars. More recent listings and better car-history data would help check whether the results hold up.
 
 10. AI usage
 
-OpenAI Codex wrote and ran the scraping and model code, checked the results, and drafted this report. The student provided the assignment and asked for simpler code and wording. No generated code or analysis is claimed as independent student work. The student should add any work they personally complete before submitting.
+OpenAI Codex wrote and ran the code, checked the results and helped write this report. I provided the assignment and asked for simpler wording. I have not claimed the AI-generated code or analysis as work I completed on my own. Any work I do myself should be added here before submitting.
 
 Sources and running the project
 
