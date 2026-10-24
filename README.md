@@ -22,7 +22,6 @@ Gradient boosting did best: **MAE 0.0472, RMSE 0.0602, R² 0.9122**. Ridge was c
 
 - [Notebook](notebooks/project_walkthrough.ipynb): code in steps, including Colab setup.
 - [Report](reports/final_report.pdf): results and discussion.
-- [Checklist](reports/assignment_checklist.txt): where to find each requirement.
 
 ## Run it
 

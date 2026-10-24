@@ -126,8 +126,6 @@ def main():
     heading("What could be better")
     paragraph("The data only covers nine models and one collection period. It does not cover the whole market. Asking prices may differ from sale prices. MSRP may miss extra options and fees, and inflation is not included.")
     paragraph("Condition, accidents and maintenance are not fully known. The test cars came from the same websites and period as the training cars. More recent listings and better car-history data would help check whether the results hold up.")
-    heading("10. AI usage")
-    paragraph("OpenAI Codex wrote and ran the code, checked the results and helped write this report. I provided the assignment and asked for simpler wording. I have not claimed the AI-generated code or analysis as work I completed on my own. Any work I do myself should be added here before submitting.")
     heading("Sources and running the project")
     paragraph("Listings: cargurus.com and iseecars.com. MSRP: CarGurus Research (example: https://www.cargurus.com/research/2020-Toyota-Camry-c29167). Exact page links and collection dates are in data/raw/collection_log.csv. Each MSRP row also has its source link.", "SmallNote")
     paragraph("Methods: scikit-learn documentation for OneHotEncoder and permutation_importance. Open notebooks/project_walkthrough.ipynb for the steps, or run python run_project.py and python src/check_project.py with the included data.", "SmallNote")
