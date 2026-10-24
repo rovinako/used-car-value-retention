@@ -44,4 +44,4 @@ These are asking prices, not sale prices. MSRP may miss options or fees. The tex
 
 ## AI usage
 
-I used AI to assist with coding and help me write format the report and the files in the repo.
+I used AI (specifically claude code) to assist with coding and help me write format the report and organize the files in the repo.
