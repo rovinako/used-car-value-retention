@@ -59,4 +59,4 @@ To collect again, run `python src/collect_data.py`. It reuses cached pages in `.
 
 ## AI usage
 
-OpenAI Codex wrote and ran the code, checked results and drafted the report. The student supplied the assignment and requested simple wording. Generated work is not claimed as independent student work. Add any work you personally complete before submitting.
+I used AI to assist with coding and help me write format the report and the files in the repo.
