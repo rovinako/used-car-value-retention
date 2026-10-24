@@ -44,4 +44,4 @@ These are asking prices, not sale prices. MSRP may miss options or fees. The tex
 
 ## AI usage
 
-Codex wrote and ran the code, checked the results and helped write the report. I provided the assignment and asked for simpler wording. The AI-generated work is not claimed as work I completed on my own. Any work I do myself should be added here before submitting.
+I used AI to assist with coding and help me write format the report and the files in the repo.
